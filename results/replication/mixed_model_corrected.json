@@ -1,0 +1,90 @@
+{
+  "overall": {
+    "clark_evans_z": {
+      "converged": true,
+      "n_obs": 18542,
+      "coefficients": {
+        "C(regime)[T.1]": {
+          "coef": 0.5569064926202796,
+          "p": 5.337494835764531e-126
+        },
+        "C(regime)[T.2]": {
+          "coef": 0.9552766081531496,
+          "p": 5.377632274801577e-179
+        }
+      }
+    },
+    "interval_cv_z": {
+      "converged": true,
+      "n_obs": 18834,
+      "coefficients": {
+        "C(regime)[T.1]": {
+          "coef": -1.1179560314979085,
+          "p": 6.949670218514553e-136
+        },
+        "C(regime)[T.2]": {
+          "coef": -2.0814178258464584,
+          "p": 1.1233421847999582e-226
+        }
+      }
+    },
+    "pairwise_compactness_z": {
+      "converged": true,
+      "n_obs": 18834,
+      "coefficients": {
+        "C(regime)[T.1]": {
+          "coef": 0.9087046677787618,
+          "p": 1.6105336885704595e-214
+        },
+        "C(regime)[T.2]": {
+          "coef": 1.2628004340777794,
+          "p": 1.140774696845301e-202
+        }
+      }
+    }
+  },
+  "split": {
+    "excitatory_clark_evans_z": {
+      "converged": true,
+      "n_obs": 5232,
+      "n_neurons": 100,
+      "regime_2_coef": 0.6518493040808194,
+      "regime_2_p": 3.643966836463587e-25
+    },
+    "inhibitory_clark_evans_z": {
+      "converged": true,
+      "n_obs": 13310,
+      "n_neurons": 250,
+      "regime_2_coef": 1.150639689791719,
+      "regime_2_p": 3.3403033241861985e-160
+    },
+    "excitatory_interval_cv_z": {
+      "converged": true,
+      "n_obs": 5394,
+      "n_neurons": 100,
+      "regime_2_coef": -1.105430784394148,
+      "regime_2_p": 9.425477254830514e-48
+    },
+    "inhibitory_interval_cv_z": {
+      "converged": true,
+      "n_obs": 13440,
+      "n_neurons": 250,
+      "regime_2_coef": -2.5463524225083036,
+      "regime_2_p": 1.0415391393901579e-176
+    },
+    "excitatory_pairwise_compactness_z": {
+      "converged": true,
+      "n_obs": 5394,
+      "n_neurons": 100,
+      "regime_2_coef": 0.7030492709665555,
+      "regime_2_p": 1.1642541479556237e-24
+    },
+    "inhibitory_pairwise_compactness_z": {
+      "converged": true,
+      "n_obs": 13440,
+      "n_neurons": 250,
+      "regime_2_coef": 1.6576396318787958,
+      "regime_2_p": 2.583714477849186e-198
+    }
+  }
+}

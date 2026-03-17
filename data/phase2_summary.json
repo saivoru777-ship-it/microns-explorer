@@ -1,0 +1,27 @@
+{
+  "freeze_date": "2026-03-17",
+  "total_proofread_attempted": 2235,
+  "download_failures": 55,
+  "neurons_downloaded": 2178,
+  "qc_passed": 2138,
+  "qc_failed": 40,
+  "analysis_ready": 2138,
+  "mean_coverage": 0.311,
+  "mean_typed_synapses": 1223.0,
+  "mean_cave_synapses": 401.0,
+  "mean_hdf5_synapses": 823.0,
+  "mean_exc_frac": 0.421,
+  "cell_type_counts": {
+    "exc_23P": 518,
+    "exc_4P": 508,
+    "exc_6PIT": 234,
+    "inh_BC": 213,
+    "exc_5PIT": 195,
+    "exc_6PCT": 164,
+    "inh_MC": 114,
+    "inh_BPC": 85,
+    "exc_5PET": 70,
+    "inh_NGC": 24,
+    "exc_5PNP": 13
+  }
+}

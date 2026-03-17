@@ -1,0 +1,53 @@
+{
+  "all": {
+    "clark_evans_z": {
+      "el_coefficient": -0.1066363485705396,
+      "el_p": 0.37467395431026296,
+      "n_obs": 109403
+    },
+    "interval_cv_z": {
+      "el_coefficient": -1.482502573014839,
+      "el_p": 1.0482198599740198e-15,
+      "n_obs": 112202
+    },
+    "pairwise_compactness_z": {
+      "el_coefficient": 0.9585680766768899,
+      "el_p": 2.611736923608818e-12,
+      "n_obs": 112207
+    }
+  },
+  "excitatory": {
+    "clark_evans_z": {
+      "el_coefficient": -0.6265961345806693,
+      "el_p": 2.4849733531481144e-05,
+      "n_obs": 86595
+    },
+    "interval_cv_z": {
+      "el_coefficient": -3.102395372029207,
+      "el_p": 1.0374024490652962e-67,
+      "n_obs": 89195
+    },
+    "pairwise_compactness_z": {
+      "el_coefficient": -0.06976377715969037,
+      "el_p": 0.6674242946789771,
+      "n_obs": 89200
+    }
+  },
+  "inhibitory": {
+    "clark_evans_z": {
+      "el_coefficient": 7.651291082161013,
+      "el_p": 2.290395655568165e-77,
+      "n_obs": 22808
+    },
+    "interval_cv_z": {
+      "el_coefficient": -17.475146201343712,
+      "el_p": 1.4261003996246687e-90,
+      "n_obs": 23007
+    },
+    "pairwise_compactness_z": {
+      "el_coefficient": 11.733244805456332,
+      "el_p": 9.07568401265334e-117,
+      "n_obs": 23007
+    }
+  }
+}

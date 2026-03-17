@@ -1,0 +1,14 @@
+{
+  "query_date": "2026-03-16",
+  "materialization_version": "1718",
+  "cell_type_table": "aibs_metamodel_celltypes_v661",
+  "synapse_table": "synapses_pni_2",
+  "proofreading_table": "proofreading_status_and_strategy",
+  "voxel_resolution_nm": [
+    4,
+    4,
+    40
+  ],
+  "caveclient_version": "8.0.1",
+  "datastack": "minnie65_public"
+}

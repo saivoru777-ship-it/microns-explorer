@@ -1,0 +1,44 @@
+{
+  "excitatory_clark_evans_z": {
+    "n_neurons": 100,
+    "n_branches": 6322,
+    "n_sig_neurons": 20,
+    "n_total_neurons": 100,
+    "frac_sig": 0.2
+  },
+  "inhibitory_clark_evans_z": {
+    "n_neurons": 250,
+    "n_branches": 15096,
+    "n_sig_neurons": 137,
+    "n_total_neurons": 250,
+    "frac_sig": 0.548
+  },
+  "excitatory_interval_cv_z": {
+    "n_neurons": 100,
+    "n_branches": 6322,
+    "n_sig_neurons": 54,
+    "n_total_neurons": 100,
+    "frac_sig": 0.54
+  },
+  "inhibitory_interval_cv_z": {
+    "n_neurons": 250,
+    "n_branches": 15096,
+    "n_sig_neurons": 173,
+    "n_total_neurons": 250,
+    "frac_sig": 0.692
+  },
+  "excitatory_pairwise_compactness_z": {
+    "n_neurons": 100,
+    "n_branches": 6322,
+    "n_sig_neurons": 3,
+    "n_total_neurons": 100,
+    "frac_sig": 0.03
+  },
+  "inhibitory_pairwise_compactness_z": {
+    "n_neurons": 250,
+    "n_branches": 15096,
+    "n_sig_neurons": 18,
+    "n_total_neurons": 250,
+    "frac_sig": 0.072
+  }
+}

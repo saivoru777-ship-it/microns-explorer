@@ -1,0 +1,59 @@
+{
+  "clark_evans_z": {
+    "mixed_model": {
+      "converged": true,
+      "formula": "clark_evans_z ~ C(regime) + synapse_count + total_length_nm + exc_fraction",
+      "regime_coefficients": {
+        "C(regime)[T.1]": 0.4731319480048573,
+        "C(regime)[T.2]": 0.7426382150931982
+      },
+      "regime_pvalues": {
+        "C(regime)[T.1]": 0.0,
+        "C(regime)[T.2]": 0.0
+      },
+      "aic": NaN,
+      "bic": NaN,
+      "n_obs": 109403
+    },
+    "n_sig_neurons": 553,
+    "n_total_neurons": 2138
+  },
+  "interval_cv_z": {
+    "mixed_model": {
+      "converged": true,
+      "formula": "interval_cv_z ~ C(regime) + synapse_count + total_length_nm + exc_fraction",
+      "regime_coefficients": {
+        "C(regime)[T.1]": -0.9681558956845798,
+        "C(regime)[T.2]": -1.696569231963672
+      },
+      "regime_pvalues": {
+        "C(regime)[T.1]": 0.0,
+        "C(regime)[T.2]": 0.0
+      },
+      "aic": NaN,
+      "bic": NaN,
+      "n_obs": 112202
+    },
+    "n_sig_neurons": 1377,
+    "n_total_neurons": 2138
+  },
+  "pairwise_compactness_z": {
+    "mixed_model": {
+      "converged": true,
+      "formula": "pairwise_compactness_z ~ C(regime) + synapse_count + total_length_nm + exc_fraction",
+      "regime_coefficients": {
+        "C(regime)[T.1]": 0.7720224041187025,
+        "C(regime)[T.2]": 0.9099438500101824
+      },
+      "regime_pvalues": {
+        "C(regime)[T.1]": 0.0,
+        "C(regime)[T.2]": 0.0
+      },
+      "aic": NaN,
+      "bic": NaN,
+      "n_obs": 112207
+    },
+    "n_sig_neurons": 165,
+    "n_total_neurons": 2138
+  }
+}

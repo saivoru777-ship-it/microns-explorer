@@ -1,0 +1,71 @@
+{
+  "all": {
+    "clark_evans_z": {
+      "coef_reduced": 0.7938430012105931,
+      "coef_full": 0.7426382150931982,
+      "mediation_pct": 6.45024092160652,
+      "exc_fraction_coef": 0.3272549430727701,
+      "exc_fraction_p": 1.0012011790172055e-150
+    },
+    "interval_cv_z": {
+      "coef_reduced": -1.7201828308234814,
+      "coef_full": -1.696569231963672,
+      "mediation_pct": 1.3727377367500626,
+      "exc_fraction_coef": -0.44120039777573383,
+      "exc_fraction_p": 5.269825713455889e-127
+    },
+    "pairwise_compactness_z": {
+      "coef_reduced": 0.8507814824405534,
+      "coef_full": 0.9099438500101824,
+      "mediation_pct": -6.9538851973970806,
+      "exc_fraction_coef": 0.3781479131360795,
+      "exc_fraction_p": 5.762359090732241e-174
+    }
+  },
+  "excitatory": {
+    "clark_evans_z": {
+      "coef_reduced": 0.7646390771952761,
+      "coef_full": 0.689751302229729,
+      "mediation_pct": 9.793872324736286,
+      "exc_fraction_coef": 0.339208861255944,
+      "exc_fraction_p": 5.458625232509409e-135
+    },
+    "interval_cv_z": {
+      "coef_reduced": -1.3594844593696889,
+      "coef_full": -1.3023707054593496,
+      "mediation_pct": 4.201133269064328,
+      "exc_fraction_coef": -0.4377037264716039,
+      "exc_fraction_p": 1.6823958481094765e-167
+    },
+    "pairwise_compactness_z": {
+      "coef_reduced": 0.7632361780777482,
+      "coef_full": 0.7725910698002747,
+      "mediation_pct": -1.225687669325004,
+      "exc_fraction_coef": 0.38830179332838316,
+      "exc_fraction_p": 6.590895539008227e-161
+    }
+  },
+  "inhibitory": {
+    "clark_evans_z": {
+      "coef_reduced": 1.312268592390675,
+      "coef_full": 1.3154143017143463,
+      "mediation_pct": -0.23971535567581803,
+      "exc_fraction_coef": 0.3212856199544754,
+      "exc_fraction_p": 5.080264848126613e-26
+    },
+    "interval_cv_z": {
+      "coef_reduced": -2.6727757948843505,
+      "coef_full": -2.8250425721722694,
+      "mediation_pct": -5.696952867477889,
+      "exc_fraction_coef": -0.37252168812460285,
+      "exc_fraction_p": 1.4673569098496963e-08
+    },
+    "pairwise_compactness_z": {
+      "coef_reduced": 1.694063494543976,
+      "coef_full": 1.8098823980706638,
+      "mediation_pct": -6.83675103676471,
+      "exc_fraction_coef": 0.459757496979368,
+      "exc_fraction_p": 5.064446992586083e-33
+    }
+  }
+}

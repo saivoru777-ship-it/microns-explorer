@@ -1,0 +1,5 @@
+caveclient>=8.0
+cloud-volume
+pandas>=2.0
+numpy>=1.24
+tqdm

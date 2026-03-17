@@ -1,0 +1,392 @@
+{
+  "excitatory": {
+    "n_neurons": 1702,
+    "n_branches": 109766,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 0.689751302229729,
+        "regime_2_p": 0.0,
+        "regime_1_coef": 0.4276237537254498,
+        "regime_1_p": 0.0,
+        "cohens_d_0v2": 0.6002147805614891,
+        "n_obs": 86595
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.3023707054593496,
+        "regime_2_p": 0.0,
+        "regime_1_coef": -0.7824116309172349,
+        "regime_1_p": 0.0,
+        "cohens_d_0v2": -0.6378730524710163,
+        "n_obs": 89195
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 0.7725910698002747,
+        "regime_2_p": 0.0,
+        "regime_1_coef": 0.682898058888885,
+        "regime_1_p": 0.0,
+        "cohens_d_0v2": -0.07001741732492502,
+        "n_obs": 89200
+      }
+    }
+  },
+  "inhibitory_all": {
+    "n_neurons": 436,
+    "n_branches": 26648,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 1.3154143017143463,
+        "regime_2_p": 0.0,
+        "regime_1_coef": 0.7389669989514907,
+        "regime_1_p": 2.472802632420745e-254,
+        "cohens_d_0v2": 0.9373634864832292,
+        "n_obs": 22808
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -2.8250425721722694,
+        "regime_2_p": 0.0,
+        "regime_1_coef": -1.383590764148256,
+        "regime_1_p": 2.262922672493465e-185,
+        "cohens_d_0v2": -0.2848844313489567,
+        "n_obs": 23007
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 1.8098823980706638,
+        "regime_2_p": 0.0,
+        "regime_1_coef": 1.1787738720385301,
+        "regime_1_p": 0.0,
+        "cohens_d_0v2": -0.0036091047946144278,
+        "n_obs": 23007
+      }
+    }
+  },
+  "BC": {
+    "n_neurons": 213,
+    "n_branches": 13944,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 1.6812975425242886,
+        "regime_2_p": 1.6693452977900674e-290,
+        "regime_1_coef": 0.9058114400840098,
+        "regime_1_p": 2.4938758821366593e-192,
+        "cohens_d_0v2": 1.1530225145923456,
+        "n_obs": 12105
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -3.596329040453189,
+        "regime_2_p": 2.0132001438814777e-202,
+        "regime_1_coef": -1.7578649012076326,
+        "regime_1_p": 6.034551197297839e-111,
+        "cohens_d_0v2": -0.22540044100623938,
+        "n_obs": 12195
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 2.2566734083259186,
+        "regime_2_p": 4.760189622276124e-285,
+        "regime_1_coef": 1.4993626609519715,
+        "regime_1_p": 1.4635332491637217e-286,
+        "cohens_d_0v2": -0.03594526550590341,
+        "n_obs": 12195
+      }
+    }
+  },
+  "MC": {
+    "n_neurons": 114,
+    "n_branches": 7438,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 0.7891254981124829,
+        "regime_2_p": 8.531053399728617e-38,
+        "regime_1_coef": 0.46554243177477383,
+        "regime_1_p": 6.673150451723926e-34,
+        "cohens_d_0v2": 0.6384511789733956,
+        "n_obs": 6584
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.6456801908764191,
+        "regime_2_p": 7.1332822671223935e-65,
+        "regime_1_coef": -0.8711362241409423,
+        "regime_1_p": 1.2184897229392653e-47,
+        "cohens_d_0v2": -0.4500482676677056,
+        "n_obs": 6656
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 1.2531095371186562,
+        "regime_2_p": 1.7146074628413161e-65,
+        "regime_1_coef": 0.8646421055340461,
+        "regime_1_p": 2.102424943757817e-79,
+        "cohens_d_0v2": 0.08612672997429938,
+        "n_obs": 6656
+      }
+    }
+  },
+  "BPC": {
+    "n_neurons": 85,
+    "n_branches": 3573,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 1.1574241670790772,
+        "regime_2_p": 3.2720758244090876e-37,
+        "regime_1_coef": 0.5958403712845334,
+        "regime_1_p": 2.0511942573073808e-23,
+        "cohens_d_0v2": 0.8339310887562907,
+        "n_obs": 2905
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -2.1434122875018415,
+        "regime_2_p": 9.151473166036169e-47,
+        "regime_1_coef": -1.0385879066743644,
+        "regime_1_p": 2.5924070849186907e-26,
+        "cohens_d_0v2": -0.47567211301171497,
+        "n_obs": 2928
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 0.7721731483038881,
+        "regime_2_p": 5.068806000989306e-13,
+        "regime_1_coef": 0.4647464208870352,
+        "regime_1_p": 1.1422782488475174e-10,
+        "cohens_d_0v2": -0.025647760528945403,
+        "n_obs": 2928
+      }
+    }
+  },
+  "NGC": {
+    "n_neurons": 24,
+    "n_branches": 1693,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 1.0824004910409648,
+        "regime_2_p": 2.3825846701934316e-12,
+        "regime_1_coef": 0.7371863428116113,
+        "regime_1_p": 5.865768821651656e-18,
+        "cohens_d_0v2": 0.3933170525457264,
+        "n_obs": 1214
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.5789429061404006,
+        "regime_2_p": 5.559048642087108e-22,
+        "regime_1_coef": -0.8193092196987647,
+        "regime_1_p": 1.0677131146813537e-19,
+        "cohens_d_0v2": -0.6027404040847104,
+        "n_obs": 1228
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 1.1249688295176583,
+        "regime_2_p": 3.0941642556842824e-11,
+        "regime_1_coef": 0.7086638090949086,
+        "regime_1_p": 4.085775510021264e-14,
+        "cohens_d_0v2": -0.0350247672316209,
+        "n_obs": 1228
+      }
+    }
+  },
+  "exc_23P": {
+    "n_neurons": 518,
+    "n_branches": 48328,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 0.6803713894297214,
+        "regime_2_p": 3.961822761205347e-149,
+        "regime_1_coef": 0.47245113643475944,
+        "regime_1_p": 9.509490717269881e-178,
+        "cohens_d_0v2": 0.4986269988342243,
+        "n_obs": 37033
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.185621281624399,
+        "regime_2_p": 0.0,
+        "regime_1_coef": -0.7980361907229794,
+        "regime_1_p": 0.0,
+        "cohens_d_0v2": -0.5636611980891979,
+        "n_obs": 38255
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 0.8543101397379801,
+        "regime_2_p": 1.3286893575169034e-202,
+        "regime_1_coef": 0.7594759077280582,
+        "regime_1_p": 0.0,
+        "cohens_d_0v2": -0.1777422913170243,
+        "n_obs": 38255
+      }
+    }
+  },
+  "exc_4P": {
+    "n_neurons": 508,
+    "n_branches": 24165,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 0.61047263349521,
+        "regime_2_p": 1.37948349633761e-79,
+        "regime_1_coef": 0.38206128759091246,
+        "regime_1_p": 2.3529082786913168e-63,
+        "cohens_d_0v2": 0.4494567011030179,
+        "n_obs": 19999
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.2156904384341292,
+        "regime_2_p": 3.5217902784006196e-234,
+        "regime_1_coef": -0.724122661384871,
+        "regime_1_p": 3.635999237689771e-175,
+        "cohens_d_0v2": -0.6136687208886342,
+        "n_obs": 20720
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 0.9710819164307717,
+        "regime_2_p": 1.995913823240678e-167,
+        "regime_1_coef": 0.7185132572085785,
+        "regime_1_p": 4.6694055513772136e-197,
+        "cohens_d_0v2": -0.10182700018701626,
+        "n_obs": 20721
+      }
+    }
+  },
+  "exc_5PET": {
+    "n_neurons": 70,
+    "n_branches": 9330,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 1.3372141238376496,
+        "regime_2_p": 1.9477497386094543e-126,
+        "regime_1_coef": 0.6262374661608376,
+        "regime_1_p": 3.2775064663397747e-63,
+        "cohens_d_0v2": 1.0029278039793215,
+        "n_obs": 7239
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -2.6083901122424953,
+        "regime_2_p": 1.95250113026395e-259,
+        "regime_1_coef": -1.157378775472501,
+        "regime_1_p": 4.088734410981552e-118,
+        "cohens_d_0v2": -0.8309699154807372,
+        "n_obs": 7406
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 1.3902977236223473,
+        "regime_2_p": 6.171818862724877e-103,
+        "regime_1_coef": 0.9265515603688182,
+        "regime_1_p": 1.6928893158604112e-104,
+        "cohens_d_0v2": -0.07724824815482292,
+        "n_obs": 7408
+      }
+    }
+  },
+  "exc_5PIT": {
+    "n_neurons": 195,
+    "n_branches": 11090,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 0.8066177100694651,
+        "regime_2_p": 3.125740759848231e-64,
+        "regime_1_coef": 0.4844157431000514,
+        "regime_1_p": 1.3622835243274788e-42,
+        "cohens_d_0v2": 0.7179092149287787,
+        "n_obs": 9042
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.3622930639982118,
+        "regime_2_p": 1.9532114355723484e-144,
+        "regime_1_coef": -0.7443679200254707,
+        "regime_1_p": 3.3719587238564387e-81,
+        "cohens_d_0v2": -0.7241019389447549,
+        "n_obs": 9296
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 1.0446118201040357,
+        "regime_2_p": 5.534724570075033e-99,
+        "regime_1_coef": 0.8069953705952719,
+        "regime_1_p": 5.914579779584424e-109,
+        "cohens_d_0v2": 0.11269407025939339,
+        "n_obs": 9296
+      }
+    }
+  },
+  "exc_5PNP": {
+    "n_neurons": 13,
+    "n_branches": 389,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 1.1948318195583278,
+        "regime_2_p": 7.75736178910731e-05,
+        "regime_1_coef": 1.013374407578967,
+        "regime_1_p": 0.00029200454438961136,
+        "cohens_d_0v2": 1.1374800283053335,
+        "n_obs": 247
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.0689280320288235,
+        "regime_2_p": 0.0007501421941233795,
+        "regime_1_coef": -0.9781927160951479,
+        "regime_1_p": 0.0005533950355867442,
+        "cohens_d_0v2": -0.6241546815954536,
+        "n_obs": 262
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 0.6554342658274515,
+        "regime_2_p": 0.021424624823362545,
+        "regime_1_coef": 0.71425630156466,
+        "regime_1_p": 0.0049477813709823725,
+        "cohens_d_0v2": -0.15214569379280238,
+        "n_obs": 262
+      }
+    }
+  },
+  "exc_6PCT": {
+    "n_neurons": 164,
+    "n_branches": 7111,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 1.0569154301465509,
+        "regime_2_p": 7.249637377093372e-80,
+        "regime_1_coef": 0.5912945746395593,
+        "regime_1_p": 1.4565806595499666e-37,
+        "cohens_d_0v2": 0.9067776605067971,
+        "n_obs": 5684
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.368024081909135,
+        "regime_2_p": 7.518870116741725e-92,
+        "regime_1_coef": -0.8455088071718158,
+        "regime_1_p": 3.1839469211477547e-53,
+        "cohens_d_0v2": -0.8943019189579872,
+        "n_obs": 5793
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 0.4407149529472858,
+        "regime_2_p": 9.825844619132836e-13,
+        "regime_1_coef": 0.6059634485632575,
+        "regime_1_p": 5.2890310373084934e-33,
+        "cohens_d_0v2": 0.166358827550682,
+        "n_obs": 5794
+      }
+    }
+  },
+  "exc_6PIT": {
+    "n_neurons": 234,
+    "n_branches": 9353,
+    "metrics": {
+      "clark_evans_z": {
+        "regime_2_coef": 0.7899840021041767,
+        "regime_2_p": 1.0825596243095243e-51,
+        "regime_1_coef": 0.34161731183368343,
+        "regime_1_p": 7.039790328045544e-16,
+        "cohens_d_0v2": 0.7237050269731109,
+        "n_obs": 7351
+      },
+      "interval_cv_z": {
+        "regime_2_coef": -1.3742640267023731,
+        "regime_2_p": 3.910962895150594e-87,
+        "regime_1_coef": -0.7880281718640989,
+        "regime_1_p": 2.1260453684877968e-45,
+        "cohens_d_0v2": -0.6470618932512306,
+        "n_obs": 7463
+      },
+      "pairwise_compactness_z": {
+        "regime_2_coef": 0.5481852045343997,
+        "regime_2_p": 8.624893775185474e-20,
+        "regime_1_coef": 0.5966398423653227,
+        "regime_1_p": 2.0585173401189295e-34,
+        "cohens_d_0v2": -0.02532307904203741,
+        "n_obs": 7464
+      }
+    }
+  }
+}

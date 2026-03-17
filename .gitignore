@@ -1,0 +1,23 @@
+# Data (too large for git — 1.2GB of SWC/CSV files)
+data/neurons/
+
+# Large result CSVs (>30MB each)
+results/replication_full/all_branch_features_raw.csv
+results/replication_full/all_branch_features_with_spatial.csv
+results/replication_full/partner_regime_mapping.csv
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# OS
+.DS_Store
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz

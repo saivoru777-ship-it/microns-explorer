@@ -1,0 +1,18 @@
+{
+  "n_neurons": 2138,
+  "n_branches": 136414,
+  "total_time_s": 6008.704726934433,
+  "type_counts": {
+    "exc_23P": 538,
+    "exc_4P": 520,
+    "exc_5PET": 70,
+    "exc_5PIT": 196,
+    "exc_5PNP": 14,
+    "exc_6PCT": 166,
+    "exc_6PIT": 237,
+    "inh_BC": 214,
+    "inh_BPC": 85,
+    "inh_MC": 114,
+    "inh_NGC": 24
+  }
+}
