@@ -1,0 +1,503 @@
+{
+  "all": {
+    "clark_evans_z": {
+      "coef_reduced": 0.7938430012106118,
+      "n_obs_reduced": 121826,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": 0.6112466814086669,
+          "mediation_pct": 23.001565740768037,
+          "mediator_coef": 0.03558846499852858,
+          "mediator_p": 0.0,
+          "n_obs": 121826
+        },
+        "mean_syn_per_partner": {
+          "coef_full": 0.6404011735969017,
+          "mediation_pct": 19.328989155249975,
+          "mediator_coef": -1.0975432465499784,
+          "mediator_p": 0.0,
+          "n_obs": 121826
+        },
+        "gini_partner": {
+          "coef_full": 0.6297060443678292,
+          "mediation_pct": 20.67624915663091,
+          "mediator_coef": -2.5777504636130897,
+          "mediator_p": 0.0,
+          "n_obs": 121826
+        },
+        "frac_multisynaptic": {
+          "coef_full": 0.6273282772276227,
+          "mediation_pct": 20.975775276604292,
+          "mediator_coef": -1.7116172582036342,
+          "mediator_p": 0.0,
+          "n_obs": 121826
+        }
+      },
+      "combined": {
+        "coef_full": 0.5644176040934463,
+        "mediation_pct": 28.900600845166036,
+        "n_obs": 121826,
+        "individual_coefs": {
+          "unique_partners": 0.019096605531863042,
+          "mean_syn_per_partner": 0.6645521117119941,
+          "gini_partner": -1.5615480696133188,
+          "frac_multisynaptic": -1.2839967233157075
+        },
+        "individual_pvalues": {
+          "unique_partners": 1.0244137694068372e-67,
+          "mean_syn_per_partner": 7.340961890773658e-15,
+          "gini_partner": 6.245756606248185e-27,
+          "frac_multisynaptic": 5.285900731768917e-34
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": 0.7426382150932019,
+        "mediation_pct": 6.450240921608241
+      }
+    },
+    "interval_cv_z": {
+      "coef_reduced": -1.7201828308234755,
+      "n_obs_reduced": 127689,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": -1.326378315378361,
+          "mediation_pct": 22.89317788717812,
+          "mediator_coef": -0.07877266264510023,
+          "mediator_p": 0.0,
+          "n_obs": 127689
+        },
+        "mean_syn_per_partner": {
+          "coef_full": -1.4723697286571498,
+          "mediation_pct": 14.406207161577944,
+          "mediator_coef": 1.9754305906273157,
+          "mediator_p": 0.0,
+          "n_obs": 127689
+        },
+        "gini_partner": {
+          "coef_full": -1.4641749665084276,
+          "mediation_pct": 14.882596182668173,
+          "mediator_coef": 4.666125816922219,
+          "mediator_p": 0.0,
+          "n_obs": 127678
+        },
+        "frac_multisynaptic": {
+          "coef_full": -1.4789003333431083,
+          "mediation_pct": 14.026561197850217,
+          "mediator_coef": 2.7532229681717117,
+          "mediator_p": 0.0,
+          "n_obs": 127689
+        }
+      },
+      "combined": {
+        "coef_full": -1.2873018378037477,
+        "mediation_pct": 25.16482464904626,
+        "n_obs": 127678,
+        "individual_coefs": {
+          "unique_partners": -0.053337565025717265,
+          "mean_syn_per_partner": -0.06223708780030132,
+          "gini_partner": 2.16167261995696,
+          "frac_multisynaptic": 0.6311573999420018
+        },
+        "individual_pvalues": {
+          "unique_partners": 8.656180107048705e-249,
+          "mean_syn_per_partner": 0.6123863225934492,
+          "gini_partner": 4.1224196316958224e-26,
+          "frac_multisynaptic": 1.5026153561543128e-05
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": -1.696569231963679,
+        "mediation_pct": 1.3727377367493188
+      }
+    },
+    "pairwise_compactness_z": {
+      "coef_reduced": 0.8507814824405496,
+      "n_obs_reduced": 127697,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": 0.5729645995213695,
+          "mediation_pct": 32.65431707825085,
+          "mediator_coef": 0.05431096058386908,
+          "mediator_p": 0.0,
+          "n_obs": 127697
+        },
+        "mean_syn_per_partner": {
+          "coef_full": 0.5160455251476249,
+          "mediation_pct": 39.344527848996194,
+          "mediator_coef": -2.637944787759444,
+          "mediator_p": 0.0,
+          "n_obs": 127697
+        },
+        "gini_partner": {
+          "coef_full": 0.525796134042854,
+          "mediation_pct": 38.19845108351954,
+          "mediator_coef": -5.768916163368852,
+          "mediator_p": 0.0,
+          "n_obs": 127686
+        },
+        "frac_multisynaptic": {
+          "coef_full": 0.5258222525259327,
+          "mediation_pct": 38.19538114328014,
+          "mediator_coef": -3.6803473056689335,
+          "mediator_p": 0.0,
+          "n_obs": 127697
+        }
+      },
+      "combined": {
+        "coef_full": 0.4826479703720622,
+        "mediation_pct": 43.27004285665228,
+        "n_obs": 127686,
+        "individual_coefs": {
+          "unique_partners": 0.004822529166521647,
+          "mean_syn_per_partner": -0.7998403871599457,
+          "gini_partner": -3.0540451066556136,
+          "frac_multisynaptic": -0.7916647926956558
+        },
+        "individual_pvalues": {
+          "unique_partners": 6.286063873494354e-05,
+          "mean_syn_per_partner": 1.4333024809344892e-17,
+          "gini_partner": 3.2823182869596364e-85,
+          "frac_multisynaptic": 1.1205923315638491e-12
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": 0.9099438500101795,
+        "mediation_pct": -6.953885197397214
+      }
+    }
+  },
+  "excitatory": {
+    "clark_evans_z": {
+      "coef_reduced": 0.764639077195279,
+      "n_obs_reduced": 97000,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": 0.5911732562426647,
+          "mediation_pct": 22.685973830802975,
+          "mediator_coef": 0.03918452078531145,
+          "mediator_p": 1.928477602877347e-239,
+          "n_obs": 97000
+        },
+        "mean_syn_per_partner": {
+          "coef_full": 0.5993092839061758,
+          "mediation_pct": 21.621938796999274,
+          "mediator_coef": -1.080497381028924,
+          "mediator_p": 0.0,
+          "n_obs": 97000
+        },
+        "gini_partner": {
+          "coef_full": 0.5854909908000442,
+          "mediation_pct": 23.42910423207193,
+          "mediator_coef": -2.51520712193535,
+          "mediator_p": 0.0,
+          "n_obs": 97000
+        },
+        "frac_multisynaptic": {
+          "coef_full": 0.5838008655449735,
+          "mediation_pct": 23.65013992138958,
+          "mediator_coef": -1.6822111313422237,
+          "mediator_p": 0.0,
+          "n_obs": 97000
+        }
+      },
+      "combined": {
+        "coef_full": 0.5401296040524919,
+        "mediation_pct": 29.36149614093687,
+        "n_obs": 97000,
+        "individual_coefs": {
+          "unique_partners": 0.014613661988500419,
+          "mean_syn_per_partner": 0.48288234259932317,
+          "gini_partner": -1.3425432443687972,
+          "frac_multisynaptic": -1.2840069440673905
+        },
+        "individual_pvalues": {
+          "unique_partners": 5.81619446610803e-22,
+          "mean_syn_per_partner": 4.2966996735231675e-08,
+          "gini_partner": 2.448917448230586e-18,
+          "frac_multisynaptic": 2.8461653043254717e-31
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": 0.6897513022297317,
+        "mediation_pct": 9.793872324736286
+      }
+    },
+    "interval_cv_z": {
+      "coef_reduced": -1.3594844593696715,
+      "n_obs_reduced": 102397,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": -0.9655891674036867,
+          "mediation_pct": 28.973872356629617,
+          "mediator_coef": -0.09133692947262684,
+          "mediator_p": 0.0,
+          "n_obs": 102397
+        },
+        "mean_syn_per_partner": {
+          "coef_full": -1.1002242126933015,
+          "mediation_pct": 19.07048255605487,
+          "mediator_coef": 1.8656426501574206,
+          "mediator_p": 0.0,
+          "n_obs": 102397
+        },
+        "gini_partner": {
+          "coef_full": -1.072918483970645,
+          "mediation_pct": 21.07901811043089,
+          "mediator_coef": 4.568045283830324,
+          "mediator_p": 0.0,
+          "n_obs": 102387
+        },
+        "frac_multisynaptic": {
+          "coef_full": -1.104821276340052,
+          "mediation_pct": 18.732334987315326,
+          "mediator_coef": 2.601090018009979,
+          "mediator_p": 0.0,
+          "n_obs": 102397
+        }
+      },
+      "combined": {
+        "coef_full": -0.9335716355942847,
+        "mediation_pct": 31.328995402629502,
+        "n_obs": 102387,
+        "individual_coefs": {
+          "unique_partners": -0.05539196204269447,
+          "mean_syn_per_partner": -0.15284770692666813,
+          "gini_partner": 2.568262734827449,
+          "frac_multisynaptic": 0.47750723763897296
+        },
+        "individual_pvalues": {
+          "unique_partners": 2.1121655270579016e-226,
+          "mean_syn_per_partner": 0.12523354685250362,
+          "gini_partner": 2.3951757809934555e-51,
+          "frac_multisynaptic": 6.61055212149902e-05
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": -1.3023707054593419,
+        "mediation_pct": 4.201133269063673
+      }
+    },
+    "pairwise_compactness_z": {
+      "coef_reduced": 0.7632361780777548,
+      "n_obs_reduced": 102404,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": 0.4483638948682562,
+          "mediation_pct": 41.254894913723675,
+          "mediator_coef": 0.0699896203201536,
+          "mediator_p": 0.0,
+          "n_obs": 102404
+        },
+        "mean_syn_per_partner": {
+          "coef_full": 0.3929440724172524,
+          "mediation_pct": 48.51605784635367,
+          "mediator_coef": -2.5724416727331105,
+          "mediator_p": 0.0,
+          "n_obs": 102404
+        },
+        "gini_partner": {
+          "coef_full": 0.3961746843346435,
+          "mediation_pct": 48.09277970386211,
+          "mediator_coef": -5.585862341211248,
+          "mediator_p": 0.0,
+          "n_obs": 102394
+        },
+        "frac_multisynaptic": {
+          "coef_full": 0.4009585743458053,
+          "mediation_pct": 47.465989445673586,
+          "mediator_coef": -3.5740562010063215,
+          "mediator_p": 0.0,
+          "n_obs": 102404
+        }
+      },
+      "combined": {
+        "coef_full": 0.3616874142972713,
+        "mediation_pct": 52.61133778954273,
+        "n_obs": 102394,
+        "individual_coefs": {
+          "unique_partners": 0.002394573415642756,
+          "mean_syn_per_partner": -1.2160872616031155,
+          "gini_partner": -2.0781425533819786,
+          "frac_multisynaptic": -0.7876330520695822
+        },
+        "individual_pvalues": {
+          "unique_partners": 0.13191746857140474,
+          "mean_syn_per_partner": 4.219804359922498e-40,
+          "gini_partner": 3.951066835047404e-40,
+          "frac_multisynaptic": 8.492012748957759e-13
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": 0.7725910698002714,
+        "mediation_pct": -1.2256876693237162
+      }
+    }
+  },
+  "inhibitory": {
+    "clark_evans_z": {
+      "coef_reduced": 1.3122685923906805,
+      "n_obs_reduced": 24826,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": 1.1389144090359535,
+          "mediation_pct": 13.210266888953859,
+          "mediator_coef": 0.03379788850388109,
+          "mediator_p": 2.9873667391653474e-115,
+          "n_obs": 24826
+        },
+        "mean_syn_per_partner": {
+          "coef_full": 1.1932978765450564,
+          "mediation_pct": 9.066033930514505,
+          "mediator_coef": -2.0487252766798822,
+          "mediator_p": 3.2677560855722875e-100,
+          "n_obs": 24826
+        },
+        "gini_partner": {
+          "coef_full": 1.2052863246010006,
+          "mediation_pct": 8.15246729290232,
+          "mediator_coef": -3.8305177376414976,
+          "mediator_p": 9.245256253050007e-123,
+          "n_obs": 24826
+        },
+        "frac_multisynaptic": {
+          "coef_full": 1.1864903265858617,
+          "mediation_pct": 9.58479586680322,
+          "mediator_coef": -3.365139797787236,
+          "mediator_p": 2.264598623628179e-117,
+          "n_obs": 24826
+        }
+      },
+      "combined": {
+        "coef_full": 1.1280282027570556,
+        "mediation_pct": 14.039838391466585,
+        "n_obs": 24826,
+        "individual_coefs": {
+          "unique_partners": 0.021565647779509988,
+          "mean_syn_per_partner": 1.5555623879948983,
+          "gini_partner": -2.6824825338094374,
+          "frac_multisynaptic": -2.3782268445523442
+        },
+        "individual_pvalues": {
+          "unique_partners": 3.117168876083626e-34,
+          "mean_syn_per_partner": 1.0120955865350407e-06,
+          "gini_partner": 6.203144413174147e-07,
+          "frac_multisynaptic": 1.1591144346123295e-12
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": 1.3154143017143503,
+        "mediation_pct": -0.2397153556756848
+      }
+    },
+    "interval_cv_z": {
+      "coef_reduced": -2.6727757948843496,
+      "n_obs_reduced": 25292,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": -2.372672705952994,
+          "mediation_pct": 11.228143022910796,
+          "mediator_coef": -0.05971509192725516,
+          "mediator_p": 2.4895827267609346e-80,
+          "n_obs": 25292
+        },
+        "mean_syn_per_partner": {
+          "coef_full": -2.4719910386769435,
+          "mediation_pct": 7.512218443152053,
+          "mediator_coef": 3.715368746234474,
+          "mediator_p": 1.1067109178318662e-77,
+          "n_obs": 25292
+        },
+        "gini_partner": {
+          "coef_full": -2.505208710778426,
+          "mediation_pct": 6.269402934082402,
+          "mediator_coef": 6.735971742679773,
+          "mediator_p": 4.762065753152762e-87,
+          "n_obs": 25291
+        },
+        "frac_multisynaptic": {
+          "coef_full": -2.4772781799518184,
+          "mediation_pct": 7.314403823422467,
+          "mediator_coef": 5.5721851929412525,
+          "mediator_p": 2.678727032954308e-77,
+          "n_obs": 25292
+        }
+      },
+      "combined": {
+        "coef_full": -2.3489253927530975,
+        "mediation_pct": 12.11663180844037,
+        "n_obs": 25291,
+        "individual_coefs": {
+          "unique_partners": -0.03777820097524407,
+          "mean_syn_per_partner": -0.293300778917671,
+          "gini_partner": 2.4879207142416777,
+          "frac_multisynaptic": 2.485288374811128
+        },
+        "individual_pvalues": {
+          "unique_partners": 1.3233130407313796e-23,
+          "mean_syn_per_partner": 0.663835069023956,
+          "gini_partner": 0.02552733623965799,
+          "frac_multisynaptic": 0.00032822781945559176
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": -2.825042572172259,
+        "mediation_pct": -5.696952867477534
+      }
+    },
+    "pairwise_compactness_z": {
+      "coef_reduced": 1.6940634945439663,
+      "n_obs_reduced": 25293,
+      "individual_mediators": {
+        "unique_partners": {
+          "coef_full": 1.4977314889649944,
+          "mediation_pct": 11.589412451852843,
+          "mediator_coef": 0.03848132148221311,
+          "mediator_p": 2.324274156351706e-94,
+          "n_obs": 25293
+        },
+        "mean_syn_per_partner": {
+          "coef_full": 1.4398212527051124,
+          "mediation_pct": 15.0078342788028,
+          "mediator_coef": -4.433457177766656,
+          "mediator_p": 1.246327805445469e-308,
+          "n_obs": 25293
+        },
+        "gini_partner": {
+          "coef_full": 1.473503175421911,
+          "mediation_pct": 13.019601675640214,
+          "mediator_coef": -8.171306722371481,
+          "mediator_p": 0.0,
+          "n_obs": 25292
+        },
+        "frac_multisynaptic": {
+          "coef_full": 1.4487443182648967,
+          "mediation_pct": 14.481108711046776,
+          "mediator_coef": -6.757073075870163,
+          "mediator_p": 0.0,
+          "n_obs": 25293
+        }
+      },
+      "combined": {
+        "coef_full": 1.4797706758203375,
+        "mediation_pct": 12.649633228848689,
+        "n_obs": 25292,
+        "individual_coefs": {
+          "unique_partners": -0.0029578085403798387,
+          "mean_syn_per_partner": 1.5672637970968808,
+          "gini_partner": -8.039127589256607,
+          "frac_multisynaptic": -2.81808431280682
+        },
+        "individual_pvalues": {
+          "unique_partners": 0.18015411117353952,
+          "mean_syn_per_partner": 7.617224655119278e-05,
+          "gini_partner": 9.504987070462524e-35,
+          "frac_multisynaptic": 4.240230959299025e-12
+        }
+      },
+      "exc_fraction_reference": {
+        "coef_full": 1.8098823980706626,
+        "mediation_pct": -6.836751036765265
+      }
+    }
+  }
+}

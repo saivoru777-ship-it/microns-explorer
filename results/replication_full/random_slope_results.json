@@ -1,0 +1,80 @@
+{
+  "clark_evans_z": {
+    "fixed_slope": 0.9733212956171359,
+    "fixed_slope_p": 2.8009076712732396e-11,
+    "random_slope_variance": 1.2836374747891581,
+    "random_intercept_variance": 0.1175495954294385,
+    "aic_intercept_only": NaN,
+    "aic_random_slope": NaN,
+    "bic_intercept_only": NaN,
+    "bic_random_slope": NaN,
+    "delta_aic": NaN,
+    "lrt_statistic": 1724.4153736862354,
+    "lrt_p": 0.0,
+    "n_neurons_with_slopes": 2138,
+    "slope_comparison_exc_vs_inh": {
+      "exc_median": 0.9104581131124758,
+      "exc_mean": 0.944596804325559,
+      "exc_n": 1702,
+      "inh_median": 1.1397237439167225,
+      "inh_mean": 1.0854522226315022,
+      "inh_n": 436,
+      "mann_whitney_U": 326794.0,
+      "mann_whitney_p": 0.00011970325734576798,
+      "cohens_d": 0.15513607614994032
+    },
+    "n_obs": 121826
+  },
+  "interval_cv_z": {
+    "fixed_slope": -1.2167525721115366,
+    "fixed_slope_p": 5.4150408339742754e-08,
+    "random_slope_variance": 22.239777762995963,
+    "random_intercept_variance": 0.21909265985204399,
+    "aic_intercept_only": NaN,
+    "aic_random_slope": NaN,
+    "bic_intercept_only": NaN,
+    "bic_random_slope": NaN,
+    "delta_aic": NaN,
+    "lrt_statistic": 23629.41410413687,
+    "lrt_p": 0.0,
+    "n_neurons_with_slopes": 2138,
+    "slope_comparison_exc_vs_inh": {
+      "exc_median": -2.2301718582247254,
+      "exc_mean": -1.9510669935972274,
+      "exc_n": 1702,
+      "inh_median": -0.06836580691975869,
+      "inh_mean": 1.649768403504638,
+      "inh_n": 436,
+      "mann_whitney_U": 253095.0,
+      "mann_whitney_p": 1.1266453590975871e-24,
+      "cohens_d": 0.8332298314961232
+    },
+    "n_obs": 127689
+  },
+  "pairwise_compactness_z": {
+    "fixed_slope": 2.7970286014381864,
+    "fixed_slope_p": 1.0419513941163356e-58,
+    "random_slope_variance": 5.217354843527882,
+    "random_intercept_variance": 1.2867359906197158,
+    "aic_intercept_only": NaN,
+    "aic_random_slope": NaN,
+    "bic_intercept_only": NaN,
+    "bic_random_slope": NaN,
+    "delta_aic": NaN,
+    "lrt_statistic": 1021.4061978606042,
+    "lrt_p": 1.601261433201635e-222,
+    "n_neurons_with_slopes": 2138,
+    "slope_comparison_exc_vs_inh": {
+      "exc_median": 2.8880202584041177,
+      "exc_mean": 2.897636621620295,
+      "exc_n": 1702,
+      "inh_median": 2.979968392277172,
+      "inh_mean": 2.4042881189842045,
+      "inh_n": 436,
+      "mann_whitney_U": 385489.0,
+      "mann_whitney_p": 0.2088899915269461,
+      "cohens_d": -0.2808534499132361
+    },
+    "n_obs": 127697
+  }
+}
