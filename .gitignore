@@ -21,3 +21,4 @@ paper/*.blg
 paper/*.log
 paper/*.out
 paper/*.synctex.gz
+results/replication_full/afferent_branch_features.csv

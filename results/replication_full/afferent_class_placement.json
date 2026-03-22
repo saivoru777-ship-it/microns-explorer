@@ -1,0 +1,97 @@
+{
+  "BC": {
+    "n_branches": 7615,
+    "n_neurons": 410,
+    "clark_evans_z": {
+      "regime2_coef": 2.01200581763421,
+      "regime2_p": 6.585885022055412e-239,
+      "n_obs": 7614
+    },
+    "interval_cv_z": {
+      "regime2_coef": -4.735128569029133,
+      "regime2_p": 2.7372035216625953e-162,
+      "n_obs": 7615
+    },
+    "pairwise_compactness_z": {
+      "regime2_coef": 3.2116595847614353,
+      "regime2_p": 0.0,
+      "n_obs": 7615
+    }
+  },
+  "MC": {
+    "n_branches": 5263,
+    "n_neurons": 418,
+    "clark_evans_z": {
+      "regime2_coef": 1.4763418649332414,
+      "regime2_p": 3.3955134945667785e-57,
+      "n_obs": 5263
+    },
+    "interval_cv_z": {
+      "regime2_coef": -4.03587742227356,
+      "regime2_p": 1.30483831565925e-57,
+      "n_obs": 5263
+    },
+    "pairwise_compactness_z": {
+      "regime2_coef": 2.5413733063231767,
+      "regime2_p": 6.163916739525539e-103,
+      "n_obs": 5263
+    }
+  },
+  "BPC": {
+    "n_branches": 1350,
+    "n_neurons": 301,
+    "clark_evans_z": {
+      "regime2_coef": 1.0703293293250922,
+      "regime2_p": 4.8167059923189983e-08,
+      "n_obs": 1350
+    },
+    "interval_cv_z": {
+      "regime2_coef": -4.428631406983995,
+      "regime2_p": 1.2968909329872853e-12,
+      "n_obs": 1350
+    },
+    "pairwise_compactness_z": {
+      "regime2_coef": 2.8974816126440053,
+      "regime2_p": 1.1023684316505995e-29,
+      "n_obs": 1350
+    }
+  },
+  "NGC": {
+    "n_branches": 134,
+    "n_neurons": 87,
+    "clark_evans_z": {
+      "regime2_coef": 0.7379889605043238,
+      "regime2_p": 0.2669046165458133,
+      "n_obs": 134
+    },
+    "interval_cv_z": {
+      "regime2_coef": -1.3915348529174558,
+      "regime2_p": 0.14775135745254547,
+      "n_obs": 134
+    },
+    "pairwise_compactness_z": {
+      "regime2_coef": 0.986190917321834,
+      "regime2_p": 0.20548645970744517,
+      "n_obs": 134
+    }
+  },
+  "excitatory": {
+    "n_branches": 15190,
+    "n_neurons": 435,
+    "clark_evans_z": {
+      "regime2_coef": 1.3813367144895987,
+      "regime2_p": 5.4086172715050985e-247,
+      "n_obs": 15186
+    },
+    "interval_cv_z": {
+      "regime2_coef": -3.485924392039021,
+      "regime2_p": 2.116821884358668e-260,
+      "n_obs": 15190
+    },
+    "pairwise_compactness_z": {
+      "regime2_coef": 2.2705379124310174,
+      "regime2_p": 0.0,
+      "n_obs": 15190
+    }
+  }
+}

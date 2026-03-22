@@ -1,0 +1,238 @@
+{
+  "robust_neuron_level_targeting": {
+    "BC_compact": {
+      "n_neurons": 434,
+      "median_log2_ratio": 0.9897091800571036,
+      "mean_log2_ratio": 0.7796431973317192,
+      "pct_positive": 88.94009216589862,
+      "wilcoxon_stat": 10342.0,
+      "wilcoxon_p": 3.9925006227145234e-45,
+      "hodges_lehmann": 0.9838648750078263,
+      "bootstrap_ci_95": [
+        0.9227259039398976,
+        1.0654026589826913
+      ],
+      "by_postsynaptic_subtype": {
+        "BC": {
+          "n_neurons": 213,
+          "pct_positive": 97.65258215962442,
+          "median_log2_ratio": 1.0030744568796777
+        },
+        "BPC": {
+          "n_neurons": 83,
+          "pct_positive": 73.49397590361446,
+          "median_log2_ratio": 0.7467772504000144
+        },
+        "MC": {
+          "n_neurons": 114,
+          "pct_positive": 87.71929824561403,
+          "median_log2_ratio": 1.127922899800294
+        },
+        "NGC": {
+          "n_neurons": 24,
+          "pct_positive": 70.83333333333334,
+          "median_log2_ratio": 0.8882948886346285
+        }
+      }
+    },
+    "MC_compartmentalized": {
+      "n_neurons": 436,
+      "median_log2_ratio": 0.2598269450957511,
+      "mean_log2_ratio": 0.3824976511846759,
+      "pct_positive": 67.43119266055045,
+      "wilcoxon_stat": 23946.0,
+      "wilcoxon_p": 2.3078213847912687e-19,
+      "hodges_lehmann": 0.2992576041010945,
+      "bootstrap_ci_95": [
+        0.2028446142218682,
+        0.3476357875617176
+      ],
+      "by_postsynaptic_subtype": {
+        "BC": {
+          "n_neurons": 213,
+          "pct_positive": 78.40375586854461,
+          "median_log2_ratio": 0.427039151037951
+        },
+        "BPC": {
+          "n_neurons": 85,
+          "pct_positive": 61.1764705882353,
+          "median_log2_ratio": 0.15514407163801086
+        },
+        "MC": {
+          "n_neurons": 114,
+          "pct_positive": 57.01754385964912,
+          "median_log2_ratio": 0.11905225948067696
+        },
+        "NGC": {
+          "n_neurons": 24,
+          "pct_positive": 41.66666666666667,
+          "median_log2_ratio": -0.07468214356532517
+        }
+      }
+    }
+  },
+  "compartment_within_regime": {
+    "soma_distance_split": {
+      "proximal": {
+        "n_branches": 13434,
+        "n_neurons": 436,
+        "frac_BC_afferent_model": {
+          "regime1_coef": -0.1922514516890751,
+          "regime1_p": 9.573313419773283e-215,
+          "regime2_coef": -0.3017967683748891,
+          "regime2_p": 6.195260135254021e-147,
+          "n_obs": 11519,
+          "n_neurons": 436
+        },
+        "frac_MC_afferent_model": {
+          "regime1_coef": 0.037834755830941896,
+          "regime1_p": 2.5279586302386137e-16,
+          "regime2_coef": 0.070027874446109,
+          "regime2_p": 1.655276786824495e-15,
+          "n_obs": 11519,
+          "n_neurons": 436
+        },
+        "clark_evans_z_regime_effect": {
+          "regime2_coef": 1.5447878390898975,
+          "regime2_p": 9.520576127029834e-173,
+          "n_obs": 12429
+        },
+        "interval_cv_z_regime_effect": {
+          "regime2_coef": -2.8794479603362033,
+          "regime2_p": 2.7285037862647407e-89,
+          "n_obs": 12733
+        },
+        "pairwise_compactness_z_regime_effect": {
+          "regime2_coef": 1.9747800027546671,
+          "regime2_p": 3.0551702036543406e-141,
+          "n_obs": 12734
+        }
+      },
+      "distal": {
+        "n_branches": 13214,
+        "n_neurons": 436,
+        "frac_BC_afferent_model": {
+          "regime1_coef": -0.013823489271081565,
+          "regime1_p": 0.04640675568517145,
+          "regime2_coef": -0.018560948192554397,
+          "regime2_p": 0.0362310852241296,
+          "n_obs": 11160,
+          "n_neurons": 436
+        },
+        "frac_MC_afferent_model": {
+          "regime1_coef": 0.010124784645107614,
+          "regime1_p": 0.20141587649660186,
+          "regime2_coef": 0.018441610722000405,
+          "regime2_p": 0.06973874313088875,
+          "n_obs": 11160,
+          "n_neurons": 436
+        },
+        "clark_evans_z_regime_effect": {
+          "regime2_coef": 0.45777424889457696,
+          "regime2_p": 5.845689776314489e-23,
+          "n_obs": 12397
+        },
+        "interval_cv_z_regime_effect": {
+          "regime2_coef": -1.4624778877093632,
+          "regime2_p": 1.556196619718373e-137,
+          "n_obs": 12559
+        },
+        "pairwise_compactness_z_regime_effect": {
+          "regime2_coef": 0.22087719616438978,
+          "regime2_p": 1.1535866215350744e-05,
+          "n_obs": 12559
+        }
+      }
+    },
+    "branch_order_split": {
+      "low_order": {
+        "n_branches": 9614,
+        "frac_BC_afferent_model": {
+          "regime2_coef": -0.3192717576133813,
+          "regime2_p": 1.1319543365661737e-178,
+          "n_obs": 8492
+        },
+        "frac_MC_afferent_model": {
+          "regime2_coef": 0.08056019912352229,
+          "regime2_p": 2.273499778849851e-22,
+          "n_obs": 8492
+        }
+      },
+      "high_order": {
+        "n_branches": 7504,
+        "frac_BC_afferent_model": {
+          "regime2_coef": -0.08089953619546301,
+          "regime2_p": 1.0251189546012002e-08,
+          "n_obs": 5773
+        },
+        "frac_MC_afferent_model": {
+          "regime2_coef": 0.037540494967382085,
+          "regime2_p": 0.014205782247552983,
+          "n_obs": 5773
+        }
+      }
+    }
+  },
+  "bootstrap_mediation_ci": {
+    "clark_evans_z": {
+      "M1": {
+        "n_successful": 200,
+        "median": 11.869865716979511,
+        "ci_2.5": 9.94005638928357,
+        "ci_97.5": 14.209959255597514
+      },
+      "M2": {
+        "n_successful": 200,
+        "median": 11.897911617432605,
+        "ci_2.5": 9.312962990464971,
+        "ci_97.5": 14.679087642174727
+      },
+      "M3": {
+        "n_successful": 200,
+        "median": 20.188998018380683,
+        "ci_2.5": 17.410598768344872,
+        "ci_97.5": 22.80858314059372
+      }
+    },
+    "interval_cv_z": {
+      "M1": {
+        "n_successful": 200,
+        "median": 7.669504858080705,
+        "ci_2.5": 5.662424975345993,
+        "ci_97.5": 9.659502989596534
+      },
+      "M2": {
+        "n_successful": 200,
+        "median": 11.79542451909824,
+        "ci_2.5": 8.387126327387664,
+        "ci_97.5": 14.646636220044352
+      },
+      "M3": {
+        "n_successful": 200,
+        "median": 16.26363025630348,
+        "ci_2.5": 12.835187844098552,
+        "ci_97.5": 19.473986099210467
+      }
+    },
+    "pairwise_compactness_z": {
+      "M1": {
+        "n_successful": 200,
+        "median": 16.750401783678882,
+        "ci_2.5": 14.466883878532593,
+        "ci_97.5": 18.526075991415258
+      },
+      "M2": {
+        "n_successful": 200,
+        "median": 12.05974381011131,
+        "ci_2.5": 9.608632198736014,
+        "ci_97.5": 14.947314682686267
+      },
+      "M3": {
+        "n_successful": 200,
+        "median": 23.091628730326057,
+        "ci_2.5": 20.223647546532632,
+        "ci_97.5": 26.076023211881814
+      }
+    }
+  }
+}

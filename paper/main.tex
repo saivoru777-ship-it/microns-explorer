@@ -24,7 +24,7 @@
 % ABSTRACT
 % ============================================================
 \begin{abstract}
-Dendritic branches differ in their capacity to electrically isolate synaptic inputs, ranging from electrotonically compact domains where inputs sum linearly to compartmentalized domains capable of local nonlinear integration. Whether this biophysical heterogeneity is reflected in the spatial arrangement of synapses remains poorly understood, in part because prior evidence has been limited to small samples and shallow mechanistic tests. Here we report a population-scale analysis of 2,138 proofread neurons (136,414 dendritic branches, $\sim$8.2 million synapses) from the MICrONS mouse visual cortex electron microscopy volume. Using continuous electrotonic length ($L/\lambda$) as a predictor in mixed-effects models, we find that synaptic spatial organization covaries with dendritic biophysical regime: electrotonically isolated branches carry more structured synaptic arrangements, as measured by two independent spacing metrics (Clark-Evans $z$: inhibitory $\beta = 7.65$, $p < 10^{-77}$; Interval CV $z$: inhibitory $\beta = -17.5$, $p < 10^{-90}$). This coupling is robust to threshold choice (8/8 discretization schemes converge) and is not explained by excitatory/inhibitory input balance (mediation $<7\%$). Partner architecture features --- partner diversity and contact multiplicity --- mediate 25--53\% of the coupling at population scale, identifying two distinct wiring mechanisms: partner diversity governs local spacing regularity while contact multiplicity governs global synapse dispersion. Random-slope mixed models reveal that excitatory and inhibitory neurons implement fundamentally different organizational logics: excitatory neurons show steep $L/\lambda \to$ spacing regularity slopes (median $= -2.23$) while inhibitory neurons maintain near-uniform spacing regardless of electrotonic regime (median $= -0.07$; Cohen's $d = 0.83$, $p = 1.1 \times 10^{-24}$). The non-monotonic behavior of pairwise compactness is explained by a regime $\times$ branch length normalization interaction, not a biological transition zone. These results establish electrotonic regime coupling as a fundamental, cell-type-specific property of cortical wiring mediated by partner-level innervation architecture and identify a qualitative excitatory--inhibitory dissociation in the organizational logic of synaptic spacing.
+Dendritic branches differ in their capacity to electrically isolate synaptic inputs, ranging from electrotonically compact domains where inputs sum linearly to compartmentalized domains capable of local nonlinear integration. Whether this biophysical heterogeneity is reflected in the spatial arrangement of synapses remains poorly understood, in part because prior evidence has been limited to small samples and shallow mechanistic tests. Here we report a population-scale analysis of 2,138 proofread neurons (136,414 dendritic branches, $\sim$8.2 million synapses) from the MICrONS mouse visual cortex electron microscopy volume. Using continuous electrotonic length ($L/\lambda$) as a predictor in mixed-effects models, we find that synaptic spatial organization covaries with dendritic biophysical regime: electrotonically isolated branches carry more structured synaptic arrangements, as measured by two independent spacing metrics (Clark-Evans $z$: inhibitory $\beta = 7.65$, $p < 10^{-77}$; Interval CV $z$: inhibitory $\beta = -17.5$, $p < 10^{-90}$). This coupling is robust to threshold choice (8/8 discretization schemes converge) and is not explained by excitatory/inhibitory input balance (mediation $<7\%$). Partner architecture features --- partner diversity and contact multiplicity --- mediate 25--53\% of the coupling at population scale, identifying two distinct wiring mechanisms: partner diversity governs local spacing regularity while contact multiplicity governs global synapse dispersion. Random-slope mixed models reveal that excitatory and inhibitory neurons implement fundamentally different organizational logics: excitatory neurons show steep $L/\lambda \to$ spacing regularity slopes (median $= -2.23$) while inhibitory neurons maintain near-uniform spacing regardless of electrotonic regime (median $= -0.07$; Cohen's $d = 0.83$, $p = 1.1 \times 10^{-24}$). We decompose the inhibitory residual --- the $\sim$86\% of inhibitory coupling not explained by partner architecture --- by tracing afferent cell type identity through a multi-stage pathway. Basket cell (BC) afferents are strongly enriched on compact branches (neuron-level median log$_2$ enrichment $= 0.99$, 89\% of neurons positive, $p = 4.0 \times 10^{-45}$), concentrated in proximal dendritic compartments. Afferent identity and partner architecture jointly explain 18--26\% of the inhibitory regime effect, reducing the residual from $\sim$86\% to $\sim$75\%. Critically, within-axon bouton placement analysis reveals that BC contacts are placed more compactly on compact branches even after conditioning on contact multiplicity (regime coefficient $= +0.95$, $p = 1.1 \times 10^{-107}$; equal-$k$ subsets: $p < 10^{-18}$ at every $k$), and that Martinotti cell (MC) contacts spread more broadly than BC contacts on compartmentalized branches (interaction $p = 5.2 \times 10^{-4}$). These results establish a complete mechanistic chain --- electrotonic regime $\to$ afferent subtype composition $\to$ partner architecture $\to$ within-axon placement $\to$ synaptic spacing --- and identify subtype-specific placement rules as a previously uncharacterized layer of inhibitory circuit organization.
 \end{abstract}
 
 % ============================================================
@@ -180,6 +180,72 @@ Two additional analyses confirm that the regime coupling reflects genuine partne
 \paragraph{Partner spatial spread scales with regime.} \label{sec:partner} To assess how individual presynaptic partners distribute their synapses across branches of different electrotonic regimes, we analyzed 178,103 partners making $\geq 3$ synapses each. Partners innervating compartmentalized (regime 2) branches showed a mean pairwise spread of 91.3 $\mu$m, compared to 42.1 $\mu$m for partners on compact (regime 0) branches --- a 2.17-fold difference (Figure~\ref{fig:partner}). This confirms that the branch-level spatial organization patterns are accompanied by partner-level architectural differences: the same presynaptic neuron distributes its synapses more widely when contacting isolated dendritic domains.
 
 
+% --------------------------------------------------
+\subsection{Afferent subtype composition varies systematically with electrotonic regime}
+\label{sec:afferent_targeting}
+
+The inhibitory residual identified in Section~\ref{sec:partner_architecture} --- the $\sim$86\% of inhibitory coupling not attributable to partner architecture --- could arise from cell-type-specific afferent targeting: if different presynaptic classes preferentially innervate branches of different electrotonic regimes, this compositional gradient could organize synaptic spacing through mechanisms orthogonal to generic partner diversity and contact multiplicity. We tested this by computing, for each dendritic branch of each inhibitory neuron, the fraction of typed presynaptic synapses originating from each inhibitory subtype (BC, MC, BPC, NGC) and from excitatory neurons (Methods).
+
+\paragraph{BC afferents are strongly enriched on compact branches.} Using a depth-preserving within-neuron shuffle null (1,000 permutations per neuron, preserving branch geometry and total per-class synapse counts within soma-distance tertiles; Methods), we found that basket cell afferents are strongly enriched on regime 0 (compact) branches: log$_2$ enrichment $= 0.91$, $p < 0.001$ (permutation). At the neuron level, 88.9\% of 434 inhibitory neurons showed higher BC fraction on compact than non-compact branches (median log$_2$ ratio $= 0.99$, Hodges--Lehmann estimator $= 0.98$, Wilcoxon signed-rank $p = 4.0 \times 10^{-45}$, 95\% bootstrap CI $= [0.92, 1.07]$). The effect was consistent across all four postsynaptic subtypes: BC postsynaptic neurons (97.7\% positive, $n = 213$), MC (87.7\%, $n = 114$), BPC (73.5\%, $n = 83$), and NGC (70.8\%, $n = 24$).
+
+Within-neuron targeting tests confirmed that this is not a between-neuron confound: 190 of 213 individual BC neurons showed significant within-neuron BC afferent targeting ($p < 0.05$, chi-squared test), with 208/213 showing the expected directional pattern (BC$\to$low regime, MC$\to$high regime).
+
+\paragraph{MC targeting is real but modest.} Martinotti cell afferents showed a statistically reliable but substantially weaker enrichment on compartmentalized branches (neuron-level median log$_2$ ratio $= 0.26$, Hodges--Lehmann $= 0.30$, Wilcoxon $p = 2.3 \times 10^{-19}$, 67.4\% positive). The BC effect is approximately 4$\times$ larger than the MC effect, consistent with the stronger compartment specificity of perisomatic-targeting interneurons compared to distal-targeting Martinotti cells \citep{markram2004, schneider2023}.
+
+\paragraph{BC targeting concentrates in proximal dendritic compartments.} Stratifying by soma distance (per-neuron median split), the BC targeting effect was 16$\times$ stronger in proximal compartments (mixed-model regime 2 coefficient $= -0.30$, $p = 6.2 \times 10^{-147}$) than in distal compartments (coefficient $= -0.019$, $p = 0.036$). This proximal concentration is consistent with the perisomatic targeting biology of basket cells \citep{schneider2023} but resolves finer electrotonic structure than compartment-level analyses alone: within proximal dendrites, BC afferents still preferentially target electrotonically compact branches.
+
+Mixed-effects models confirmed the targeting pattern at population level: $\text{frac\_BC\_afferent} \sim C(\text{regime})$, with regime 2 coefficient $= -0.28$ ($p < 10^{-300}$, $n = 25{,}902$ branches, 436 neurons), and $\text{frac\_MC\_afferent}$: regime 2 coefficient $= +0.073$ ($p = 4.1 \times 10^{-39}$).
+
+
+% --------------------------------------------------
+\subsection{Afferent identity and partner architecture jointly explain 18--26\% of inhibitory coupling}
+\label{sec:chained_model}
+
+To determine whether afferent subtype composition adds explanatory power beyond the partner architecture features identified in Section~\ref{sec:partner_architecture}, we fit a four-model comparison for each spatial metric (Table~\ref{tab:four_model}):
+
+\begin{itemize}
+    \item \textbf{M0} (baseline): $z_{\text{metric}} \sim C(\text{regime}) + \text{synapse\_count} + \text{total\_length} + (1|\text{neuron})$
+    \item \textbf{M1} ($+$ composition): M0 $+$ frac\_inh $+$ frac\_BC $+$ frac\_MC
+    \item \textbf{M2} ($+$ partner architecture): M0 $+$ unique\_partners $+$ mean\_syn/partner $+$ Gini $+$ frac\_multisynaptic
+    \item \textbf{M3} ($+$ both): M0 $+$ all composition and partner architecture covariates
+\end{itemize}
+
+For all three spatial metrics, $\text{M3} > \text{M1}$ and $\text{M3} > \text{M2}$: the combined model consistently explained more variance than either pathway alone. Combined mediation (M3) reached 23.3\% for Clark-Evans $z$, 18.1\% for Interval CV $z$, and 25.5\% for pairwise compactness $z$ --- up from 14.2\%, 13.3\%, and 15.4\% for partner architecture alone (M2). All bootstrap 95\% CIs excluded zero (200 cluster-bootstrap iterations by neuron; Table~\ref{tab:four_model}).
+
+\paragraph{Two partially independent pathways.} The sequential decomposition reveals two pathways through which afferent identity organizes synaptic spacing:
+
+\textit{The overlap pathway} (4--6\%): afferent composition acts \textit{through} partner architecture. BC targeting determines which presynaptic neurons arrive, which determines contact multiplicity and partner diversity, which determines spacing. This was confirmed directly: BC fraction significantly predicted all four partner architecture features in mixed models (Link 1 mediation: 13--39\%; BC fraction coefficients $p < 10^{-18}$ for all four features). BC-rich branches have fewer unique partners ($\beta = -2.20$, $p = 6.9 \times 10^{-19}$), higher contact multiplicity ($\beta = +0.064$, $p = 6.4 \times 10^{-83}$), higher partner concentration ($\beta = +0.039$, $p = 2.0 \times 10^{-83}$), and more multisynaptic contacts ($\beta = +0.043$, $p = 1.5 \times 10^{-85}$) --- precisely the partner architecture profile that drives compact spacing.
+
+\textit{The chain incremental pathway} (5--10\%): afferent composition explains regime variance in spatial metrics \textit{beyond} what partner architecture captures. This placement effect indicates that different presynaptic classes impose different spacing rules conditional on where they synapse, a hypothesis tested directly in Section~\ref{sec:axon_placement}.
+
+\paragraph{Subtype-specific chain patterns.} Stratifying by postsynaptic subtype confirmed that the chain incremental is concentrated in BC (5--11\%) and MC (5--9\%) postsynaptic neurons, while BPC neurons are dominated by partner architecture alone (M2 = 21--67\%, chain incremental = 1--5\%). This dissociation indicates that the mechanisms differ by postsynaptic subtype: BC and MC postsynaptic neurons benefit from afferent-specific placement rules, while BPC organization is largely explained by generic partner architecture.
+
+
+% --------------------------------------------------
+\subsection{Presynaptic subtype imposes distinct within-axon placement rules}
+\label{sec:axon_placement}
+
+The chain incremental (Section~\ref{sec:chained_model}) demonstrates that afferent identity affects spatial organization beyond partner architecture, but does not reveal whether this reflects a genuine placement effect or a residual confound. We tested this directly with an axon-conditioned placement analysis: for multisynaptic typed partners (same presynaptic neuron with $\geq 2$ synapses on the same branch), we computed the mean pairwise 3D distance between their synapses and tested whether electrotonic regime predicts this within-partner placement metric after conditioning on contact multiplicity and branch length (Methods).
+
+\paragraph{BC contacts are placed more compactly on compact branches.} Among 7,478 BC partner-branch records (407 neurons), the mean within-partner pairwise distance increased monotonically with electrotonic regime: 2.5 $\mu$m (regime 0, $n = 2{,}560$), 3.3 $\mu$m (regime 1, $n = 2{,}069$), and 4.4 $\mu$m (regime 2, $n = 2{,}849$) --- a 1.76-fold expansion from compact to compartmentalized. In a mixed-effects model controlling for contact count ($k$) and branch length, the regime 2 coefficient was $+0.95$ ($p = 1.1 \times 10^{-107}$; Table~\ref{tab:axon_placement}).
+
+\paragraph{The effect survives exact multiplicity matching.} To eliminate any residual multiplicity confound, we analyzed partners at each contact count separately. The regime gradient persisted at every $k$ value tested: $k = 2$ (regime 2 coefficient $= 0.93$, $p = 1.8 \times 10^{-67}$, $n = 5{,}578$), $k = 3$ ($= 1.07$, $p = 4.7 \times 10^{-39}$, $n = 1{,}274$), and $k = 4$ ($= 1.00$, $p = 4.1 \times 10^{-18}$, $n = 407$). This eliminates the possibility that the placement effect is an artifact of differential contact multiplicity across regimes.
+
+\paragraph{Neuron-level confirmation.} At the neuron level, 81.0\% of 300 neurons with BC partners in both regime 0 and regime 2 showed wider BC contact placement on compartmentalized branches (median log$_2$(R2/R0) $= 0.90$, Hodges--Lehmann $= 0.97$, Wilcoxon $p = 1.2 \times 10^{-31}$, 95\% CI $= [0.76, 1.08]$).
+
+\paragraph{MC contacts spread more broadly than BC contacts on compartmentalized branches.} MC partners showed a qualitatively similar but quantitatively larger expansion: median within-partner distance increased from 2.7 $\mu$m (regime 0) to 8.1 $\mu$m (regime 2) --- a 3.0-fold expansion compared to BC's 1.76-fold. An interaction model (regime $\times$ presynaptic class, controlling for $k$ and branch length) confirmed that the regime 2 $\times$ MC interaction was significant ($\beta = +0.24$, $p = 5.2 \times 10^{-4}$), meaning MC contacts spread significantly more on compartmentalized branches than BC contacts do, conditional on being there.
+
+This subtype-specific placement difference --- BC tight, MC broad --- aligns with the known axonal morphology of these classes: basket cell axons form dense perisomatic bouton clusters, while Martinotti cell axons arborize more broadly in distal dendritic domains \citep{markram2004}. The axon-conditioned analysis shows that this morphological difference manifests at the level of individual branch electrotonic structure, not just at the coarse compartment level.
+
+\paragraph{Mechanistic interpretation.} Together, Sections~\ref{sec:afferent_targeting}--\ref{sec:axon_placement} establish a complete mechanistic chain:
+
+\begin{center}
+\textit{electrotonic regime $\to$ afferent subtype composition $\to$ partner architecture $\to$ within-axon placement $\to$ synaptic spacing}
+\end{center}
+
+Each link is independently validated. The arrival effect (Section~\ref{sec:afferent_targeting}) determines which presynaptic classes innervate a branch. The partner architecture effect (Section~\ref{sec:partner_architecture}) determines the diversity and multiplicity of contacts. The placement effect (this section) determines where individual axons position their boutons. These three mechanisms are partially independent: their combined mediation (M3 = 18--26\%) exceeds either pathway alone, and the placement effect survives exact multiplicity conditioning.
+
+
 % ============================================================
 % DISCUSSION
 % ============================================================
@@ -196,13 +262,13 @@ These two mechanisms can coexist because they operate at different spatial scale
 
 
 % --------------------------------------------------
-\subsection{The inhibitory residual}
+\subsection{Decomposing the inhibitory residual}
 
-The most consequential finding from the mediation analysis is the asymmetry between cell types. Partner architecture mediates 29--53\% of excitatory coupling but only 12--14\% of inhibitory coupling, despite inhibitory neurons showing $\sim$2$\times$ stronger regime effects. Partner architecture therefore reveals a primary wiring mechanism for excitatory neurons while identifying a distinct, incompletely characterized organizational program for inhibitory neurons.
+The most consequential finding from the mediation analysis is the asymmetry between cell types. Partner architecture mediates 29--53\% of excitatory coupling but only 12--14\% of inhibitory coupling, despite inhibitory neurons showing $\sim$2$\times$ stronger regime effects. The afferent decomposition (Sections~\ref{sec:afferent_targeting}--\ref{sec:axon_placement}) partially resolves this asymmetry, reducing the inhibitory residual from $\sim$86\% to $\sim$75\% by identifying a multi-stage mechanistic chain.
 
-This ``inhibitory residual'' --- the $\sim$86\% of inhibitory coupling not attributable to partner architecture --- likely reflects cell-type-specific targeting programs that operate alongside the partner diversity and contact multiplicity mechanisms. Three candidate programs merit investigation. First, inhibitory dendritic morphology differs from excitatory morphology in ways that could independently constrain synapse placement: inhibitory interneurons have shorter, more tortuous dendrites with distinct branching patterns \citep{markram2004, ascoli2008}. Second, inhibitory neurons receive inputs from different populations of presynaptic partners, and the spatial strategies of those afferents may not be captured by the four partner features we measured --- cell-type-specific afferent targeting may impose spatial constraints orthogonal to generic partner architecture. Third, active dendritic conductances differ between cell types \citep{stuart1997}, and while our analysis captures static structural regime, the effective electrotonic environment during development may involve cell-type-specific active processes that shape synapse placement through mechanisms not reducible to partner-level features.
+The chain has three independently validated links. First, electrotonic regime predicts afferent subtype composition: basket cell afferents concentrate on compact branches with a neuron-level effect that is consistent across 89\% of inhibitory neurons. This targeting is not merely a depth effect --- it persists within proximal dendritic compartments, resolving finer electrotonic structure than compartment-level analyses \citep{schneider2023}. Second, afferent subtype composition predicts partner architecture: BC-rich branches show the precise partner profile --- fewer unique partners, higher contact multiplicity, greater partner concentration --- that drives compact spacing. Third, presynaptic subtype identity imposes distinct within-axon placement rules that survive exact multiplicity conditioning. This third link is the most novel: it demonstrates that the spatial organization of inhibitory synapses reflects not only \textit{who} arrives and \textit{how often}, but also \textit{how} each presynaptic class positions its boutons once it has arrived.
 
-The random-slope analysis (Section~\ref{sec:random_slope}) provides a further clue: inhibitory neurons maintain uniform inter-synapse spacing regardless of electrotonic regime, consistent with a cell-autonomous spacing mechanism that operates independently of the branch's biophysical properties. Identifying the molecular or developmental basis of this spacing rule is a natural next step.
+The $\sim$75\% that remains unexplained likely reflects cell-autonomous mechanisms not accessible through connectomic data: contact-mediated synapse repulsion, developmental timing constraints, or molecular signals that enforce regular spacing independently of presynaptic identity \citep{spruston2008}. The random-slope analysis (Section~\ref{sec:random_slope}) supports this interpretation: inhibitory neurons maintain near-uniform inter-synapse spacing regardless of electrotonic regime (median slope $= -0.07$), consistent with a spacing mechanism that operates independently of the branch's biophysical properties.
 
 
 % --------------------------------------------------
@@ -243,7 +309,11 @@ Second, electrotonic lengths are computed from EM-measured diameters, which are 
 
 Third, the passive cable parameters ($R_M$, $R_I$) are fixed at standard values. In vivo, active conductances, synaptic conductance loads, and neuromodulation alter the effective electrotonic length of a branch dynamically. Our analysis captures the static structural regime, not the instantaneous functional regime.
 
-Fourth, the partner architecture features explain 25--53\% of the excitatory coupling and 12--14\% of the inhibitory coupling. The remaining variance is unaccounted for. Candidate mediators not tested here include axonal geometry constraints, developmental timing of synapse formation, and cell-type-specific postsynaptic molecular signals.
+Fourth, the afferent subtype labels (BC, MC, BPC, NGC) are morphological EM proxy categories, not molecular identity classes. The correspondence with molecular types (PV, SST, VIP, 5HT3aR) is approximate \citep{schneider2023}: our claims about presynaptic identity should be interpreted as ``consistent with'' known molecular targeting biology rather than direct demonstrations of molecular identity.
+
+Fifth, of all presynaptic synapses, only $\sim$18\% have resolved cell type annotations; among multi-synapse partners ($k \geq 3$), coverage reaches $\sim$43\%. The afferent composition analyses therefore operate on the typed subset, which may not be fully representative of all inputs. Coverage is regime-asymmetric (proximal branches have lower subtyped coverage than distal), but this asymmetry works \textit{against} finding BC enrichment on compact branches --- making the observed effect conservative.
+
+Sixth, the combined mechanistic chain (afferent identity $+$ partner architecture) explains 18--26\% of inhibitory coupling, leaving $\sim$75\% unexplained. Candidate mediators not tested include cell-autonomous spacing mechanisms, developmental timing, axonal geometry constraints, and molecular signals inaccessible to connectomic data.
 
 Fifth, the random-slope model AIC/BIC values were numerically undefined (NaN) due to the large sample size and model complexity, though the likelihood ratio tests and parameter estimates were valid. The model comparison should be interpreted through the LRT statistics rather than information criteria.
 
@@ -327,6 +397,22 @@ The non-monotonic pairwise compactness dose-response was investigated through: (
 \subsection{Partner spatial spread}
 
 For each presynaptic partner making $\geq 3$ synapses onto a postsynaptic neuron, we computed the mean 3D Euclidean distance between all pairs of their synapse positions. Partners were classified by the dominant electrotonic regime of the branches they innervate (the regime containing the plurality of their synapses).
+
+\subsection{Afferent subtype composition}
+
+For each dendritic branch of each inhibitory neuron, we matched presynaptic synapses to partner identity using KDTree nearest-neighbor lookup against presynaptic partner CSV files. Each synapse was assigned an annotation level: L1 (exact subtype from CAVE annotation), L2 (subtype from catalog backfill), L3 (broad class only: excitatory/inhibitory), or L4 (unknown). Afferent fractions (frac\_BC, frac\_MC, frac\_BPC, frac\_NGC) were computed using L1+L2 synapses; broad fractions (frac\_exc, frac\_inh) used L1+L2+L3.
+
+\subsection{Depth-preserving shuffle null}
+
+For each postsynaptic neuron, we assigned each synapse to a soma-distance tertile bin (proximal/medial/distal, computed per neuron). Within each bin, presynaptic subtype labels were randomly permuted 1,000 times, preserving branch geometry, synapse count per branch, total per-class synapse counts, and depth structure. The observed afferent fraction per regime was compared to the null distribution. Sensitivity analysis with 2 and 4 depth bins confirmed that results were not bin-dependent.
+
+\subsection{Four-model mediation comparison}
+
+For each spatial metric, we fit four nested mixed-effects models on inhibitory branches: M0 (baseline: regime $+$ synapse count $+$ branch length $+$ random intercept for neuron), M1 (M0 $+$ afferent fractions), M2 (M0 $+$ partner architecture features), and M3 (M0 $+$ both). Mediation percentage was computed as $100 \times (1 - |\beta_{\text{full}}| / |\beta_{\text{reduced}}|)$. The chain incremental ($= \text{M3} - \text{M2}$) measures the contribution of afferent composition beyond partner architecture; the overlap ($= \text{M1} + \text{M2} - \text{M3}$) measures the shared pathway. Bootstrap 95\% CIs were computed via 200 cluster-bootstrap iterations (resampling neurons with replacement, fitting OLS).
+
+\subsection{Axon-conditioned placement analysis}
+
+For each inhibitory neuron, we identified multisynaptic typed partners: presynaptic neurons with $\geq 2$ synapses of known subtype on the same branch. For each partner-branch pair, we computed the mean 3D pairwise Euclidean distance between all synapse pairs. The placement metric was modeled as: $\log(1 + \text{mean\_pairwise\_dist}) \sim C(\text{regime}) + k_{\text{synapses}} + \text{total\_length} + (1|\text{neuron})$. The equal-$k$ analysis stratified by exact contact count ($k = 2, 3, 4$) and refit within each stratum. The interaction model tested $C(\text{regime}) \times C(\text{pre\_class})$ with BC as reference.
 
 \subsection{Software}
 
@@ -425,6 +511,47 @@ Excitatory & Clark-Evans $z$ & 0.765 & 0.690 & 9.8\% \\
 Inhibitory & Clark-Evans $z$ & 1.312 & 1.315 & $-0.2$\% \\
  & Interval CV $z$ & $-2.673$ & $-2.825$ & $-5.7$\% \\
  & Compactness $z$ & 1.694 & 1.810 & $-6.8$\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Four-model comparison for inhibitory regime coupling. M0: baseline (regime $+$ controls). M1: $+$ afferent composition. M2: $+$ partner architecture. M3: $+$ both. Mediation \%: reduction in regime 2 coefficient relative to M0. Chain incremental $=$ M3 $-$ M2 (composition beyond partner architecture). Overlap $=$ M1 $+$ M2 $-$ M3 (shared pathway). Bootstrap 95\% CIs from 200 cluster-bootstrap iterations (in brackets).}
+\label{tab:four_model}
+\small
+\begin{tabular}{lrrrrcc}
+\toprule
+Metric & M1 \% & M2 \% & M3 \% & Chain & Overlap & $n$ \\
+\midrule
+Clark-Evans $z$ & 13.9 & 14.2 & 23.3 [17.7, 23.0] & 9.1 [6.5, 10.1] & 4.7 [2.8, 4.5] & 24,826 \\
+Interval CV $z$ & 8.6 & 13.3 & 18.1 [13.2, 19.4] & 4.9 [3.1, 6.2] & 3.8 [2.4, 3.6] & 25,291 \\
+Compactness $z$ & 16.6 & 15.4 & 25.5 [20.3, 25.9] & 10.2 [8.8, 12.8] & 6.4 [4.8, 6.8] & 25,292 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Axon-conditioned placement analysis. Within-partner mean pairwise 3D distance for multisynaptic typed partners ($k \geq 2$ synapses on the same branch). Regime coefficients from mixed models controlling for $k$ and branch length (log-transformed distance). Equal-$k$ rows show the regime 2 coefficient when holding contact count exactly constant.}
+\label{tab:axon_placement}
+\small
+\begin{tabular}{llrrrrrr}
+\toprule
+Class & Subset & $n$ & Neurons & R0 ($\mu$m) & R2 ($\mu$m) & R2 coef & $p$ \\
+\midrule
+BC & All & 7,478 & 407 & 2.5 & 4.4 & $+$0.95 & $1.1 \times 10^{-107}$ \\
+ & $k = 2$ & 5,578 & 403 & 2.1 & 3.7 & $+$0.93 & $1.8 \times 10^{-67}$ \\
+ & $k = 3$ & 1,274 & 304 & 3.0 & 5.7 & $+$1.07 & $4.7 \times 10^{-39}$ \\
+ & $k = 4$ & 407 & 191 & 3.6 & 7.4 & $+$1.00 & $4.1 \times 10^{-18}$ \\
+\midrule
+MC & All & 4,468 & 411 & 2.7 & 8.1 & $+$0.79 & $8.3 \times 10^{-20}$ \\
+ & $k = 2$ & 3,525 & 399 & 2.4 & 6.3 & $+$0.77 & $1.2 \times 10^{-13}$ \\
+ & $k = 3$ & 663 & 264 & 3.0 & 13.8 & $+$0.88 & $6.8 \times 10^{-7}$ \\
+\midrule
+Exc & All & 12,072 & 414 & 2.5 & 3.9 & $+$0.46 & $1.7 \times 10^{-21}$ \\
 \bottomrule
 \end{tabular}
 \end{table}

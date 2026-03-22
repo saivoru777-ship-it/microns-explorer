@@ -1,0 +1,182 @@
+{
+  "cave_boost": {
+    "catalog_entries": 91489,
+    "available_tables": [
+      "baylor_gnn_cell_type_fine_model_v2",
+      "aibs_metamodel_celltypes_v661_corrections",
+      "cell_type_multifeature_combo",
+      "baylor_log_reg_cell_type_coarse_v1",
+      "cg_cell_type_calls",
+      "aibs_metamodel_celltypes_v661"
+    ],
+    "primary_table": "aibs_metamodel_celltypes_v661",
+    "additional_tables_checked": [
+      "baylor_gnn_cell_type_fine_model_v2",
+      "aibs_metamodel_celltypes_v661_corrections",
+      "cell_type_multifeature_combo"
+    ],
+    "sample_n_synapses": 224996,
+    "typed_pct_base": 18.29899198207968,
+    "typed_pct_boost": 18.29899198207968,
+    "subtyped_pct_base": 9.651282689470035,
+    "subtyped_pct_boost": 9.651282689470035
+  },
+  "coverage_gate": {
+    "BC": {
+      "n_neurons": 213,
+      "n_branches": 13599,
+      "gate1_pct_with_3typed": 75.93940730936099,
+      "gate1_pass": "True",
+      "gate2": {
+        "BC": {
+          "branches_with_class": 8970,
+          "neurons_with_class": 213,
+          "pass": true
+        },
+        "MC": {
+          "branches_with_class": 6932,
+          "neurons_with_class": 213,
+          "pass": true
+        },
+        "BPC": {
+          "branches_with_class": 2971,
+          "neurons_with_class": 207,
+          "pass": true
+        },
+        "NGC": {
+          "branches_with_class": 907,
+          "neurons_with_class": 175,
+          "pass": true
+        },
+        "excitatory": {
+          "branches_with_class": 11034,
+          "neurons_with_class": 213,
+          "pass": true
+        }
+      },
+      "annotation_levels": {
+        "L1": 167845,
+        "L2": 0,
+        "L3": 127821,
+        "L4": 1261673
+      }
+    },
+    "BPC": {
+      "n_neurons": 85,
+      "n_branches": 3371,
+      "gate1_pct_with_3typed": 69.32660931474341,
+      "gate1_pass": "True",
+      "gate2": {
+        "BC": {
+          "branches_with_class": 1441,
+          "neurons_with_class": 84,
+          "pass": true
+        },
+        "MC": {
+          "branches_with_class": 1951,
+          "neurons_with_class": 85,
+          "pass": true
+        },
+        "BPC": {
+          "branches_with_class": 801,
+          "neurons_with_class": 85,
+          "pass": true
+        },
+        "NGC": {
+          "branches_with_class": 395,
+          "neurons_with_class": 73,
+          "pass": true
+        },
+        "excitatory": {
+          "branches_with_class": 2483,
+          "neurons_with_class": 85,
+          "pass": true
+        }
+      },
+      "annotation_levels": {
+        "L1": 22646,
+        "L2": 0,
+        "L3": 14978,
+        "L4": 194119
+      }
+    },
+    "MC": {
+      "n_neurons": 114,
+      "n_branches": 7375,
+      "gate1_pct_with_3typed": 75.26779661016948,
+      "gate1_pass": "True",
+      "gate2": {
+        "BC": {
+          "branches_with_class": 4012,
+          "neurons_with_class": 114,
+          "pass": true
+        },
+        "MC": {
+          "branches_with_class": 3263,
+          "neurons_with_class": 114,
+          "pass": true
+        },
+        "BPC": {
+          "branches_with_class": 2249,
+          "neurons_with_class": 112,
+          "pass": true
+        },
+        "NGC": {
+          "branches_with_class": 422,
+          "neurons_with_class": 89,
+          "pass": true
+        },
+        "excitatory": {
+          "branches_with_class": 6100,
+          "neurons_with_class": 114,
+          "pass": true
+        }
+      },
+      "annotation_levels": {
+        "L1": 79208,
+        "L2": 0,
+        "L3": 74944,
+        "L4": 531970
+      }
+    },
+    "NGC": {
+      "n_neurons": 24,
+      "n_branches": 1557,
+      "gate1_pct_with_3typed": 54.91329479768786,
+      "gate1_pass": "True",
+      "gate2": {
+        "BC": {
+          "branches_with_class": 454,
+          "neurons_with_class": 24,
+          "pass": true
+        },
+        "MC": {
+          "branches_with_class": 673,
+          "neurons_with_class": 24,
+          "pass": true
+        },
+        "BPC": {
+          "branches_with_class": 184,
+          "neurons_with_class": 24,
+          "pass": true
+        },
+        "NGC": {
+          "branches_with_class": 194,
+          "neurons_with_class": 23,
+          "pass": true
+        },
+        "excitatory": {
+          "branches_with_class": 931,
+          "neurons_with_class": 24,
+          "pass": true
+        }
+      },
+      "annotation_levels": {
+        "L1": 5141,
+        "L2": 0,
+        "L3": 6397,
+        "L4": 68761
+      }
+    }
+  }
+}

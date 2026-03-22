@@ -1,0 +1,1139 @@
+{
+  "all_inhibitory": {
+    "clark_evans_z": {
+      "M0_coef": 1.3122685923906805,
+      "M0_p": 0.0,
+      "M0_n": 24826,
+      "M1_coef": 1.1940264656541246,
+      "M1_mediation_pct": 9.010512590348851,
+      "M1_n": 22431,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.1179048357825936,
+          "p": 0.030849227005738056
+        },
+        "frac_BC_afferent": {
+          "coef": -0.5531142013619169,
+          "p": 1.6221527542532609e-22
+        },
+        "frac_MC_afferent": {
+          "coef": 0.20731692601509547,
+          "p": 0.00044814345506081615
+        }
+      },
+      "M2_coef": 1.128028202757089,
+      "M2_mediation_pct": 14.039838391464043,
+      "M2_n": 24826,
+      "M3_coef": 1.0629476888767049,
+      "M3_mediation_pct": 18.99922812751045,
+      "M3_n": 22431,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.10920477375037167,
+          "p": 0.04297046922392388
+        },
+        "frac_BC_afferent": {
+          "coef": -0.4080046696143279,
+          "p": 4.998197853393025e-13
+        },
+        "frac_MC_afferent": {
+          "coef": 0.18658852240463897,
+          "p": 0.001382992971164545
+        },
+        "unique_partners": {
+          "coef": 0.019279723070063984,
+          "p": 4.786363340874132e-26
+        },
+        "mean_syn_per_partner": {
+          "coef": 1.6754481011277313,
+          "p": 3.300458201884796e-05
+        },
+        "gini_partner": {
+          "coef": -3.195541442382421,
+          "p": 1.5774643160562285e-06
+        },
+        "frac_multisynaptic": {
+          "coef": -1.946447282082665,
+          "p": 8.495730336403273e-07
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": 1.194244541245253,
+      "within_neuron_mediation_pct": 8.993894377248813
+    },
+    "interval_cv_z": {
+      "M0_coef": -2.6727757948843496,
+      "M0_p": 0.0,
+      "M0_n": 25292,
+      "M1_coef": -2.6787229621461983,
+      "M1_mediation_pct": -0.22250902126663696,
+      "M1_n": 22593,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.1171952514525456,
+          "p": 0.3290832357089407
+        },
+        "frac_BC_afferent": {
+          "coef": 0.7458422168457616,
+          "p": 2.2289589724775928e-09
+        },
+        "frac_MC_afferent": {
+          "coef": -0.2607378859144617,
+          "p": 0.045666100501909855
+        }
+      },
+      "M2_coef": -2.3489253927531366,
+      "M2_mediation_pct": 12.116631808438905,
+      "M2_n": 25291,
+      "M3_coef": -2.409411143079238,
+      "M3_mediation_pct": 9.853600601636215,
+      "M3_n": 22593,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.10438619946463573,
+          "p": 0.38036089536299034
+        },
+        "frac_BC_afferent": {
+          "coef": 0.4613051333897209,
+          "p": 0.00021617829434947167
+        },
+        "frac_MC_afferent": {
+          "coef": -0.22794013686531953,
+          "p": 0.0780000452325515
+        },
+        "unique_partners": {
+          "coef": -0.0351259949277074,
+          "p": 4.441223604732931e-18
+        },
+        "mean_syn_per_partner": {
+          "coef": 0.3854647392452461,
+          "p": 0.6625599111606642
+        },
+        "gini_partner": {
+          "coef": 1.156556061811531,
+          "p": 0.4199309970581705
+        },
+        "frac_multisynaptic": {
+          "coef": 3.093543662844877,
+          "p": 0.0003242968480153052
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": -2.68455911710034,
+      "within_neuron_mediation_pct": -0.4408645962202806
+    },
+    "pairwise_compactness_z": {
+      "M0_coef": 1.6940634945439663,
+      "M0_p": 0.0,
+      "M0_n": 25293,
+      "M1_coef": 1.6178451121508826,
+      "M1_mediation_pct": 4.499145553785833,
+      "M1_n": 22593,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.09469364361701373,
+          "p": 0.1652819323437904
+        },
+        "frac_BC_afferent": {
+          "coef": -1.1835175932763387,
+          "p": 2.10019161122932e-62
+        },
+        "frac_MC_afferent": {
+          "coef": 0.06405242715035991,
+          "p": 0.38849182236319835
+        }
+      },
+      "M2_coef": 1.4797706758203268,
+      "M2_mediation_pct": 12.64963322884931,
+      "M2_n": 25292,
+      "M3_coef": 1.4526260213124311,
+      "M3_mediation_pct": 14.251973081831204,
+      "M3_n": 22593,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.08684040606156355,
+          "p": 0.19588391787835568
+        },
+        "frac_BC_afferent": {
+          "coef": -0.8641330149440257,
+          "p": 1.192648447052403e-34
+        },
+        "frac_MC_afferent": {
+          "coef": 0.011597883158465083,
+          "p": 0.8736778012516431
+        },
+        "unique_partners": {
+          "coef": -0.0029592755031507432,
+          "p": 0.19545437625396322
+        },
+        "mean_syn_per_partner": {
+          "coef": 0.793220520826231,
+          "p": 0.11274032701743504
+        },
+        "gini_partner": {
+          "coef": -5.846512311558074,
+          "p": 6.204501276292323e-13
+        },
+        "frac_multisynaptic": {
+          "coef": -3.2518586301929915,
+          "p": 2.6662443770236484e-11
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": 1.6145382207613261,
+      "within_neuron_mediation_pct": 4.694350243586831
+    }
+  },
+  "BC": {
+    "clark_evans_z": {
+      "M0_coef": 1.697446120798962,
+      "M0_p": 0.0,
+      "M0_n": 13091,
+      "M1_coef": 1.4891959643733945,
+      "M1_mediation_pct": 12.268439856432511,
+      "M1_n": 11918,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.16503733334361356,
+          "p": 0.07687646667673768
+        },
+        "frac_BC_afferent": {
+          "coef": -0.6504371987876377,
+          "p": 2.7586493897520196e-12
+        },
+        "frac_MC_afferent": {
+          "coef": 0.27784694997142784,
+          "p": 0.0056147850308597485
+        }
+      },
+      "M2_coef": 1.4989274629531142,
+      "M2_mediation_pct": 11.69513750176695,
+      "M2_n": 13091,
+      "M3_coef": 1.3675862205294895,
+      "M3_mediation_pct": 19.432716963894702,
+      "M3_n": 11918,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.17577670958116284,
+          "p": 0.05628343219773073
+        },
+        "frac_BC_afferent": {
+          "coef": -0.47115815939991973,
+          "p": 3.510968319025203e-07
+        },
+        "frac_MC_afferent": {
+          "coef": 0.25318349643506244,
+          "p": 0.010582089384793667
+        },
+        "unique_partners": {
+          "coef": 0.011818940267918193,
+          "p": 1.7997557107027224e-07
+        },
+        "mean_syn_per_partner": {
+          "coef": 2.6713140664009485,
+          "p": 5.689031374162776e-07
+        },
+        "gini_partner": {
+          "coef": -5.052675681465935,
+          "p": 9.137575348453339e-08
+        },
+        "frac_multisynaptic": {
+          "coef": -2.5273726848138587,
+          "p": 3.0346969481222856e-06
+        }
+      },
+      "interpretation": "afferent identity has placement effects beyond partner architecture",
+      "within_neuron_coef": 1.4858103881849438,
+      "within_neuron_mediation_pct": 12.467891028812417
+    },
+    "interval_cv_z": {
+      "M0_coef": -3.4650879177033755,
+      "M0_p": 1.9417492859346687e-217,
+      "M0_n": 13301,
+      "M1_coef": -3.3770346302752072,
+      "M1_mediation_pct": 2.5411559394582173,
+      "M1_n": 11993,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.170423278816896,
+          "p": 0.4766794231010404
+        },
+        "frac_BC_afferent": {
+          "coef": 0.7372750575330614,
+          "p": 0.0021813709371907362
+        },
+        "frac_MC_afferent": {
+          "coef": -0.33072849221571593,
+          "p": 0.20336069030109383
+        }
+      },
+      "M2_coef": -3.121114056242705,
+      "M2_mediation_pct": 9.926843694305242,
+      "M2_n": 13300,
+      "M3_coef": -3.1205105004436486,
+      "M3_mediation_pct": 9.944261890131468,
+      "M3_n": 11993,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.21086913964745688,
+          "p": 0.37567569654788735
+        },
+        "frac_BC_afferent": {
+          "coef": 0.4221878302251935,
+          "p": 0.0796517098788008
+        },
+        "frac_MC_afferent": {
+          "coef": -0.3110447157072495,
+          "p": 0.22886065575143877
+        },
+        "unique_partners": {
+          "coef": -0.027774650691578313,
+          "p": 2.2850933221543434e-06
+        },
+        "mean_syn_per_partner": {
+          "coef": -1.7841359452132124,
+          "p": 0.18573461506432964
+        },
+        "gini_partner": {
+          "coef": 3.645169252742478,
+          "p": 0.117690338717156
+        },
+        "frac_multisynaptic": {
+          "coef": 4.339122639887957,
+          "p": 0.0012797021186226026
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": -3.370944404850656,
+      "within_neuron_mediation_pct": 2.716915561412858
+    },
+    "pairwise_compactness_z": {
+      "M0_coef": 2.1756779410767715,
+      "M0_p": 8.047461573355582e-291,
+      "M0_n": 13302,
+      "M1_coef": 1.9697604213673654,
+      "M1_mediation_pct": 9.464522106957373,
+      "M1_n": 11993,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.0156849118170617,
+          "p": 0.8993530443454365
+        },
+        "frac_BC_afferent": {
+          "coef": -1.195649176395151,
+          "p": 8.538487991384787e-22
+        },
+        "frac_MC_afferent": {
+          "coef": 0.18470406274489742,
+          "p": 0.17051203982930374
+        }
+      },
+      "M2_coef": 1.8870915578807803,
+      "M2_mediation_pct": 13.264205043746779,
+      "M2_n": 13301,
+      "M3_coef": 1.8006159597514482,
+      "M3_mediation_pct": 17.238855726031776,
+      "M3_n": 11993,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.02867987230415504,
+          "p": 0.8119034252462082
+        },
+        "frac_BC_afferent": {
+          "coef": -0.7925046454325024,
+          "p": 7.64337524580067e-11
+        },
+        "frac_MC_afferent": {
+          "coef": 0.14230606445595206,
+          "p": 0.27653243434054386
+        },
+        "unique_partners": {
+          "coef": -0.006220169834192941,
+          "p": 0.03658383244792883
+        },
+        "mean_syn_per_partner": {
+          "coef": 4.443711784075875,
+          "p": 7.635477631910161e-11
+        },
+        "gini_partner": {
+          "coef": -11.891160303049883,
+          "p": 7.543080316370579e-24
+        },
+        "frac_multisynaptic": {
+          "coef": -4.693127545403138,
+          "p": 8.091005312808436e-12
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": 1.9698804650528117,
+      "within_neuron_mediation_pct": 9.459004576849638
+    }
+  },
+  "BPC": {
+    "clark_evans_z": {
+      "M0_coef": 1.1654722735632324,
+      "M0_p": 3.9798401346733064e-41,
+      "M0_n": 3219,
+      "M1_coef": 1.1415098962273897,
+      "M1_mediation_pct": 2.056022942749358,
+      "M1_n": 2847,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.09261803850627377,
+          "p": 0.4579115869686329
+        },
+        "frac_BC_afferent": {
+          "coef": -0.3651549733180722,
+          "p": 0.0073893747582955095
+        },
+        "frac_MC_afferent": {
+          "coef": 0.10041760426520954,
+          "p": 0.42760288984246286
+        }
+      },
+      "M2_coef": 0.9254324094043797,
+      "M2_mediation_pct": 20.595930903184158,
+      "M2_n": 3219,
+      "M3_coef": 0.9355438938264166,
+      "M3_mediation_pct": 19.728344032917143,
+      "M3_n": 2847,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.10062543036957915,
+          "p": 0.4144672870830729
+        },
+        "frac_BC_afferent": {
+          "coef": -0.1276125327795399,
+          "p": 0.3548179554189529
+        },
+        "frac_MC_afferent": {
+          "coef": 0.11913784873093006,
+          "p": 0.34123164392843075
+        },
+        "unique_partners": {
+          "coef": 0.032305566578672854,
+          "p": 1.4288729304080628e-06
+        },
+        "mean_syn_per_partner": {
+          "coef": -0.50019062018569,
+          "p": 0.5987901925303696
+        },
+        "gini_partner": {
+          "coef": 1.6298594620341793,
+          "p": 0.3026315163295642
+        },
+        "frac_multisynaptic": {
+          "coef": -2.0702206291560095,
+          "p": 0.05697138623977107
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": 1.1403429573308312,
+      "within_neuron_mediation_pct": 2.156148782121814
+    },
+    "interval_cv_z": {
+      "M0_coef": -2.122809785959165,
+      "M0_p": 1.0846284913034137e-53,
+      "M0_n": 3284,
+      "M1_coef": -2.0644728829719594,
+      "M1_mediation_pct": 2.748098457669712,
+      "M1_n": 2868,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.07578176838256985,
+          "p": 0.7084286240029709
+        },
+        "frac_BC_afferent": {
+          "coef": 1.152594567566429,
+          "p": 1.904227865129469e-07
+        },
+        "frac_MC_afferent": {
+          "coef": -0.05436776723121459,
+          "p": 0.7918619464759635
+        }
+      },
+      "M2_coef": -1.4369817565197769,
+      "M2_mediation_pct": 32.30755925357228,
+      "M2_n": 3284,
+      "M3_coef": -1.4121040394730564,
+      "M3_mediation_pct": 33.47948323900274,
+      "M3_n": 2868,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.08897671209080421,
+          "p": 0.6422831042676995
+        },
+        "frac_BC_afferent": {
+          "coef": 0.33375162204884345,
+          "p": 0.1184772187004671
+        },
+        "frac_MC_afferent": {
+          "coef": -0.09200240679202573,
+          "p": 0.636789103225597
+        },
+        "unique_partners": {
+          "coef": -0.07884929663597541,
+          "p": 5.3221704030611705e-14
+        },
+        "mean_syn_per_partner": {
+          "coef": 8.768995595636232,
+          "p": 4.126375935552629e-09
+        },
+        "gini_partner": {
+          "coef": -9.487235508459097,
+          "p": 0.00012798157992674624
+        },
+        "frac_multisynaptic": {
+          "coef": 1.6747710891175385,
+          "p": 0.3265599087178861
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": -2.0752770558051274,
+      "within_neuron_mediation_pct": 2.2391422193562494
+    },
+    "pairwise_compactness_z": {
+      "M0_coef": 0.7393812019564581,
+      "M0_p": 2.603388964891551e-13,
+      "M0_n": 3284,
+      "M1_coef": 0.6585136727856213,
+      "M1_mediation_pct": 10.937190309525747,
+      "M1_n": 2868,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.04393266792814192,
+          "p": 0.7602412034220258
+        },
+        "frac_BC_afferent": {
+          "coef": -0.9940748658751508,
+          "p": 4.093486124278336e-10
+        },
+        "frac_MC_afferent": {
+          "coef": -0.06456514724848826,
+          "p": 0.6632884176677647
+        }
+      },
+      "M2_coef": 0.22451458392117216,
+      "M2_mediation_pct": 69.63479956927634,
+      "M2_n": 3284,
+      "M3_coef": 0.19934354452695335,
+      "M3_mediation_pct": 73.03913813341813,
+      "M3_n": 2868,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.04661654933933509,
+          "p": 0.737256177115296
+        },
+        "frac_BC_afferent": {
+          "coef": -0.4003453893496505,
+          "p": 0.010436475205619808
+        },
+        "frac_MC_afferent": {
+          "coef": -0.0284920390792322,
+          "p": 0.8412293704997785
+        },
+        "unique_partners": {
+          "coef": 0.03549699722130266,
+          "p": 4.247589084788167e-06
+        },
+        "mean_syn_per_partner": {
+          "coef": -10.00818023077093,
+          "p": 1.1300418463522194e-19
+        },
+        "gini_partner": {
+          "coef": 12.266691252933917,
+          "p": 1.842588075671082e-11
+        },
+        "frac_multisynaptic": {
+          "coef": -1.4790626701664242,
+          "p": 0.24072421394113064
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": 0.7051698791348631,
+      "within_neuron_mediation_pct": 4.6270209103327575
+    }
+  },
+  "MC": {
+    "clark_evans_z": {
+      "M0_coef": 0.8341304052511019,
+      "M0_p": 2.932936349725736e-45,
+      "M0_n": 7047,
+      "M1_coef": 0.7401981660526182,
+      "M1_mediation_pct": 11.261097618208371,
+      "M1_n": 6510,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.003674743154070537,
+          "p": 0.9662364010418736
+        },
+        "frac_BC_afferent": {
+          "coef": -0.488218042952959,
+          "p": 2.378767065530541e-07
+        },
+        "frac_MC_afferent": {
+          "coef": -0.13009116086500622,
+          "p": 0.21037483085683117
+        }
+      },
+      "M2_coef": 0.6948231863641327,
+      "M2_mediation_pct": 16.70089209193052,
+      "M2_n": 7047,
+      "M3_coef": 0.6286697342047161,
+      "M3_mediation_pct": 24.63172062221316,
+      "M3_n": 6510,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.028699689495444183,
+          "p": 0.739721648531017
+        },
+        "frac_BC_afferent": {
+          "coef": -0.4425907003103154,
+          "p": 2.8902387644746187e-06
+        },
+        "frac_MC_afferent": {
+          "coef": -0.14510557723439385,
+          "p": 0.15990053188536912
+        },
+        "unique_partners": {
+          "coef": 0.0198762188718819,
+          "p": 2.661761653588111e-07
+        },
+        "mean_syn_per_partner": {
+          "coef": 1.51665686817695,
+          "p": 0.0910518268993717
+        },
+        "gini_partner": {
+          "coef": -2.1531394929748267,
+          "p": 0.08367981187092582
+        },
+        "frac_multisynaptic": {
+          "coef": -1.5083927760824367,
+          "p": 0.044157683668997846
+        }
+      },
+      "interpretation": "afferent identity has placement effects beyond partner architecture",
+      "within_neuron_coef": 0.7380272180486519,
+      "within_neuron_mediation_pct": 11.521362438948579
+    },
+    "interval_cv_z": {
+      "M0_coef": -1.5880620694325982,
+      "M0_p": 2.043990691433247e-67,
+      "M0_n": 7193,
+      "M1_coef": -1.606600620051098,
+      "M1_mediation_pct": -1.1673693979180166,
+      "M1_n": 6568,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.0291923427432499,
+          "p": 0.8313494937061204
+        },
+        "frac_BC_afferent": {
+          "coef": 0.5566665353271305,
+          "p": 0.0001785740036634911
+        },
+        "frac_MC_afferent": {
+          "coef": 0.13054663952809764,
+          "p": 0.4249150851192487
+        }
+      },
+      "M2_coef": -1.3377744640733673,
+      "M2_mediation_pct": 15.760568190427005,
+      "M2_n": 7193,
+      "M3_coef": -1.3788364225972543,
+      "M3_mediation_pct": 13.174903605001953,
+      "M3_n": 6568,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.033758804800224765,
+          "p": 0.8041259523653543
+        },
+        "frac_BC_afferent": {
+          "coef": 0.4943352156829361,
+          "p": 0.0008429399069009855
+        },
+        "frac_MC_afferent": {
+          "coef": 0.18972664153736432,
+          "p": 0.24285634148535207
+        },
+        "unique_partners": {
+          "coef": -0.03741210122167109,
+          "p": 8.020075246081158e-10
+        },
+        "mean_syn_per_partner": {
+          "coef": -1.471664724049178,
+          "p": 0.2993482201768195
+        },
+        "gini_partner": {
+          "coef": 2.8152515577432946,
+          "p": 0.15047214004049833
+        },
+        "frac_multisynaptic": {
+          "coef": 1.889233696209924,
+          "p": 0.10914020090352952
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": -1.6040608734523703,
+      "within_neuron_mediation_pct": -1.007441984020696
+    },
+    "pairwise_compactness_z": {
+      "M0_coef": 1.1688141135738503,
+      "M0_p": 2.2188632033184135e-62,
+      "M0_n": 7193,
+      "M1_coef": 1.1638427041067128,
+      "M1_mediation_pct": 0.42533790526678716,
+      "M1_n": 6568,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.21015029488922993,
+          "p": 0.03662547878965184
+        },
+        "frac_BC_afferent": {
+          "coef": -1.0465199805725685,
+          "p": 2.169364134025612e-21
+        },
+        "frac_MC_afferent": {
+          "coef": -0.22484352483366593,
+          "p": 0.06309809689959409
+        }
+      },
+      "M2_coef": 1.1047117870575645,
+      "M2_mediation_pct": 5.4843901841912235,
+      "M2_n": 7193,
+      "M3_coef": 1.1167612649059724,
+      "M3_mediation_pct": 4.453475369895854,
+      "M3_n": 6568,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.2529678827617172,
+          "p": 0.010837886190232812
+        },
+        "frac_BC_afferent": {
+          "coef": -0.9061020125905423,
+          "p": 1.2565328932925258e-16
+        },
+        "frac_MC_afferent": {
+          "coef": -0.2565160378415551,
+          "p": 0.03144165413744926
+        },
+        "unique_partners": {
+          "coef": -0.007588037735193806,
+          "p": 0.08980284262249515
+        },
+        "mean_syn_per_partner": {
+          "coef": -0.46492780889967295,
+          "p": 0.6615134508168697
+        },
+        "gini_partner": {
+          "coef": -5.5933487753234274,
+          "p": 0.0001357735670525252
+        },
+        "frac_multisynaptic": {
+          "coef": 0.28557319802537107,
+          "p": 0.7458213811232683
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": 1.1608251547371287,
+      "within_neuron_mediation_pct": 0.6835097851696892
+    }
+  },
+  "NGC": {
+    "clark_evans_z": {
+      "M0_coef": 0.8640617115757082,
+      "M0_p": 2.7017744454541272e-09,
+      "M0_n": 1469,
+      "M1_coef": 1.0805406056578546,
+      "M1_mediation_pct": -25.05363808880898,
+      "M1_n": 1156,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.14872980690742033,
+          "p": 0.34934900250270307
+        },
+        "frac_BC_afferent": {
+          "coef": 0.059931283745394186,
+          "p": 0.738187575656887
+        },
+        "frac_MC_afferent": {
+          "coef": 0.28928502246952215,
+          "p": 0.055801834835336635
+        }
+      },
+      "M2_coef": 0.7648838499757903,
+      "M2_mediation_pct": 11.4780993384207,
+      "M2_n": 1469,
+      "M3_coef": 1.0027896564756937,
+      "M3_mediation_pct": -16.0553283453563,
+      "M3_n": 1156,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.14721028542688006,
+          "p": 0.3537448326339402
+        },
+        "frac_BC_afferent": {
+          "coef": 0.12239690843256656,
+          "p": 0.4973170873553725
+        },
+        "frac_MC_afferent": {
+          "coef": 0.29530176512804623,
+          "p": 0.05138525796450195
+        },
+        "unique_partners": {
+          "coef": 0.022503152801291837,
+          "p": 0.23655007163104758
+        },
+        "mean_syn_per_partner": {
+          "coef": -2.11000494587487,
+          "p": 0.4468007167590784
+        },
+        "gini_partner": {
+          "coef": 5.524892575319502,
+          "p": 0.22351934929689454
+        },
+        "frac_multisynaptic": {
+          "coef": -3.3490382954276137,
+          "p": 0.062135879094819484
+        }
+      },
+      "within_neuron_coef": 1.088423733526816,
+      "within_neuron_mediation_pct": -25.965971983871384
+    },
+    "interval_cv_z": {
+      "M0_coef": -1.4963127057563068,
+      "M0_p": 5.328940986761339e-24,
+      "M0_n": 1514,
+      "M1_coef": -1.5172284273823962,
+      "M1_mediation_pct": -1.3978175514801627,
+      "M1_n": 1164,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.13184305928619391,
+          "p": 0.43314265173418065
+        },
+        "frac_BC_afferent": {
+          "coef": 0.17607898032832098,
+          "p": 0.35124287778285346
+        },
+        "frac_MC_afferent": {
+          "coef": -0.1101568629050377,
+          "p": 0.4919708998227751
+        }
+      },
+      "M2_coef": -1.3660561664146784,
+      "M2_mediation_pct": 8.705168300752387,
+      "M2_n": 1514,
+      "M3_coef": -1.3792457488671317,
+      "M3_mediation_pct": 7.823695972026378,
+      "M3_n": 1164,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": 0.14401285127408756,
+          "p": 0.38835449822435675
+        },
+        "frac_BC_afferent": {
+          "coef": 0.05908018748040515,
+          "p": 0.7541578480525102
+        },
+        "frac_MC_afferent": {
+          "coef": -0.12340543228634714,
+          "p": 0.4390169091313406
+        },
+        "unique_partners": {
+          "coef": -0.07047551205552095,
+          "p": 0.0004265652516175712
+        },
+        "mean_syn_per_partner": {
+          "coef": 3.6080940571723366,
+          "p": 0.2186984663288125
+        },
+        "gini_partner": {
+          "coef": -8.113596729356566,
+          "p": 0.09075927304070154
+        },
+        "frac_multisynaptic": {
+          "coef": 2.6029026196981957,
+          "p": 0.17032168968278039
+        }
+      },
+      "interpretation": "afferent identity acts through partner architecture",
+      "within_neuron_coef": -1.523890117793213,
+      "within_neuron_mediation_pct": -1.8430246519204108
+    },
+    "pairwise_compactness_z": {
+      "M0_coef": 0.822597219456904,
+      "M0_p": 1.6742179840929575e-07,
+      "M0_n": 1514,
+      "M1_coef": 1.064436908687786,
+      "M1_mediation_pct": -29.399526707682,
+      "M1_n": 1164,
+      "M1_afferent_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.18824879414169685,
+          "p": 0.2740480906292083
+        },
+        "frac_BC_afferent": {
+          "coef": -0.36671960713889185,
+          "p": 0.059783706105986045
+        },
+        "frac_MC_afferent": {
+          "coef": 0.31391086265688506,
+          "p": 0.058467918952659265
+        }
+      },
+      "M2_coef": 0.7014917325158369,
+      "M2_mediation_pct": 14.722331181841774,
+      "M2_n": 1514,
+      "M3_coef": 0.9471779514098346,
+      "M3_mediation_pct": -15.144803435535724,
+      "M3_n": 1164,
+      "M3_all_coefs": {
+        "frac_inh_afferent": {
+          "coef": -0.19740969615468737,
+          "p": 0.24272057250410473
+        },
+        "frac_BC_afferent": {
+          "coef": -0.2153149313859704,
+          "p": 0.2640670035124485
+        },
+        "frac_MC_afferent": {
+          "coef": 0.35877760843055917,
+          "p": 0.02762348411703415
+        },
+        "unique_partners": {
+          "coef": 0.005341523896701736,
+          "p": 0.7921493911957871
+        },
+        "mean_syn_per_partner": {
+          "coef": 4.500643623511522,
+          "p": 0.13279197949602234
+        },
+        "gini_partner": {
+          "coef": -7.1052759917954,
+          "p": 0.14731217187392445
+        },
+        "frac_multisynaptic": {
+          "coef": -5.301843210232712,
+          "p": 0.006115481511360363
+        }
+      },
+      "within_neuron_coef": 1.0455717097244117,
+      "within_neuron_mediation_pct": -27.106156572559303
+    }
+  },
+  "morphology_controls": {
+    "BC": {
+      "n_neurons": 213,
+      "total_dendritic_length_vs_icv_std": {
+        "spearman_r": 0.12020509585461987,
+        "spearman_p": 0.08005543238362363,
+        "n": 213
+      },
+      "total_dendritic_length_vs_icv_range": {
+        "spearman_r": 0.14111702484347097,
+        "spearman_p": 0.03961658494238238,
+        "n": 213
+      },
+      "mean_branch_order_vs_icv_std": {
+        "spearman_r": -0.30879746523100143,
+        "spearman_p": 4.369644388984516e-06,
+        "n": 213
+      },
+      "mean_branch_order_vs_icv_range": {
+        "spearman_r": -0.26668852241254776,
+        "spearman_p": 8.117671988382079e-05,
+        "n": 213
+      },
+      "n_branches_vs_icv_std": {
+        "spearman_r": 0.02161421992189845,
+        "spearman_p": 0.7538024098747192,
+        "n": 213
+      },
+      "n_branches_vs_icv_range": {
+        "spearman_r": 0.11344841394194811,
+        "spearman_p": 0.09867374650275511,
+        "n": 213
+      },
+      "mean_electrotonic_length_vs_icv_std": {
+        "spearman_r": 0.04743058953261093,
+        "spearman_p": 0.49111220122040855,
+        "n": 213
+      },
+      "mean_electrotonic_length_vs_icv_range": {
+        "spearman_r": -0.02342036702670617,
+        "spearman_p": 0.7339738079665116,
+        "n": 213
+      },
+      "max_soma_distance_vs_icv_std": {
+        "spearman_r": 0.09508470324681292,
+        "spearman_p": 0.1667616684103699,
+        "n": 213
+      },
+      "max_soma_distance_vs_icv_range": {
+        "spearman_r": 0.11924394187377838,
+        "spearman_p": 0.0825165379364711,
+        "n": 213
+      }
+    },
+    "BPC": {
+      "n_neurons": 85,
+      "total_dendritic_length_vs_icv_std": {
+        "spearman_r": -0.0984561266367012,
+        "spearman_p": 0.3700064665067543,
+        "n": 85
+      },
+      "total_dendritic_length_vs_icv_range": {
+        "spearman_r": -0.02622630447527848,
+        "spearman_p": 0.8116829752326834,
+        "n": 85
+      },
+      "mean_branch_order_vs_icv_std": {
+        "spearman_r": -0.37521741686697907,
+        "spearman_p": 0.00040268018999396337,
+        "n": 85
+      },
+      "mean_branch_order_vs_icv_range": {
+        "spearman_r": -0.2223318806733085,
+        "spearman_p": 0.04084286385227574,
+        "n": 85
+      },
+      "n_branches_vs_icv_std": {
+        "spearman_r": -0.27952581062253423,
+        "spearman_p": 0.009575120059679651,
+        "n": 85
+      },
+      "n_branches_vs_icv_range": {
+        "spearman_r": -0.07060263609217061,
+        "spearman_p": 0.5208158444526109,
+        "n": 85
+      },
+      "mean_electrotonic_length_vs_icv_std": {
+        "spearman_r": 0.05958569474301348,
+        "spearman_p": 0.5880246904293556,
+        "n": 85
+      },
+      "mean_electrotonic_length_vs_icv_range": {
+        "spearman_r": -0.08422904045339066,
+        "spearman_p": 0.44342713719790705,
+        "n": 85
+      },
+      "max_soma_distance_vs_icv_std": {
+        "spearman_r": 0.06951338675004887,
+        "spearman_p": 0.5272836367090361,
+        "n": 85
+      },
+      "max_soma_distance_vs_icv_range": {
+        "spearman_r": 0.1054328708227477,
+        "spearman_p": 0.3368888606222319,
+        "n": 85
+      }
+    },
+    "MC": {
+      "n_neurons": 114,
+      "total_dendritic_length_vs_icv_std": {
+        "spearman_r": -0.055904092667220184,
+        "spearman_p": 0.5546701582333285,
+        "n": 114
+      },
+      "total_dendritic_length_vs_icv_range": {
+        "spearman_r": 0.0297563840343452,
+        "spearman_p": 0.7533087878251483,
+        "n": 114
+      },
+      "mean_branch_order_vs_icv_std": {
+        "spearman_r": -0.2480974309830568,
+        "spearman_p": 0.007779116097270323,
+        "n": 114
+      },
+      "mean_branch_order_vs_icv_range": {
+        "spearman_r": -0.19538442222890237,
+        "spearman_p": 0.037226866165289293,
+        "n": 114
+      },
+      "n_branches_vs_icv_std": {
+        "spearman_r": -0.12727568678486634,
+        "spearman_p": 0.17719209451168896,
+        "n": 114
+      },
+      "n_branches_vs_icv_range": {
+        "spearman_r": 0.12505927213167728,
+        "spearman_p": 0.18491806967827526,
+        "n": 114
+      },
+      "mean_electrotonic_length_vs_icv_std": {
+        "spearman_r": -0.04638626192260182,
+        "spearman_p": 0.6240804726376097,
+        "n": 114
+      },
+      "mean_electrotonic_length_vs_icv_range": {
+        "spearman_r": -0.19589315728721576,
+        "spearman_p": 0.0367258122659596,
+        "n": 114
+      },
+      "max_soma_distance_vs_icv_std": {
+        "spearman_r": -0.1515846175654604,
+        "spearman_p": 0.10740613327406363,
+        "n": 114
+      },
+      "max_soma_distance_vs_icv_range": {
+        "spearman_r": -0.06407727668536484,
+        "spearman_p": 0.4982062547885362,
+        "n": 114
+      }
+    },
+    "NGC": {
+      "n_neurons": 24,
+      "total_dendritic_length_vs_icv_std": {
+        "spearman_r": -0.36173913043478256,
+        "spearman_p": 0.08240024160942253,
+        "n": 24
+      },
+      "total_dendritic_length_vs_icv_range": {
+        "spearman_r": -0.07043478260869565,
+        "spearman_p": 0.7436342012968032,
+        "n": 24
+      },
+      "mean_branch_order_vs_icv_std": {
+        "spearman_r": -0.2817391304347826,
+        "spearman_p": 0.18228277001095713,
+        "n": 24
+      },
+      "mean_branch_order_vs_icv_range": {
+        "spearman_r": -0.03739130434782608,
+        "spearman_p": 0.8622893584755251,
+        "n": 24
+      },
+      "n_branches_vs_icv_std": {
+        "spearman_r": -0.374429232595712,
+        "spearman_p": 0.07144741381424359,
+        "n": 24
+      },
+      "n_branches_vs_icv_range": {
+        "spearman_r": 0.03131115533901424,
+        "spearman_p": 0.8845220127250363,
+        "n": 24
+      },
+      "mean_electrotonic_length_vs_icv_std": {
+        "spearman_r": 0.05391304347826086,
+        "spearman_p": 0.8024319710844886,
+        "n": 24
+      },
+      "mean_electrotonic_length_vs_icv_range": {
+        "spearman_r": -0.17217391304347823,
+        "spearman_p": 0.42111806892778625,
+        "n": 24
+      },
+      "max_soma_distance_vs_icv_std": {
+        "spearman_r": -0.12869565217391304,
+        "spearman_p": 0.5489587886992762,
+        "n": 24
+      },
+      "max_soma_distance_vs_icv_range": {
+        "spearman_r": -0.1026086956521739,
+        "spearman_p": 0.6332868165639749,
+        "n": 24
+      }
+    }
+  }
+}
