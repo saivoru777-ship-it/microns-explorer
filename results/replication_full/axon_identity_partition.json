@@ -1,0 +1,100 @@
+{
+  "variance_partition_BC": {
+    "neuron": {
+      "re_var": 0.04871291930564797,
+      "resid_var": 0.9173350545729434,
+      "icc": 0.05042494847338709,
+      "regime2_coef": 0.9386764757330623,
+      "regime2_pval": 1.2945827042833375e-104
+    },
+    "axon": {
+      "re_var": 0.03020982551012381,
+      "resid_var": 0.9184364994490288,
+      "icc": 0.031845193214051194,
+      "regime2_coef": 0.9422175656184583,
+      "regime2_pval": 1.1745639340090842e-106
+    },
+    "ols_decomp": {
+      "total_resid_var": 0.9478943802320582,
+      "between_axon_pct": 45.649441609981494,
+      "between_neuron_pct": 23.803045404250284
+    },
+    "n": 7478,
+    "n_axons": 985,
+    "n_neurons": 407
+  },
+  "variance_partition_MC": {
+    "neuron": {
+      "re_var": 0.007865676611307387,
+      "resid_var": 1.3449279771588496,
+      "icc": 0.005814394966583562,
+      "regime2_coef": 0.7857507267178844,
+      "regime2_pval": 1.0393419570879358e-19
+    },
+    "axon": {
+      "re_var": 0.06678355772960322,
+      "resid_var": 1.2868355839057752,
+      "icc": 0.04933703704050645,
+      "regime2_coef": 0.7507404559095565,
+      "regime2_pval": 2.656006343102395e-18
+    },
+    "ols_decomp": {
+      "total_resid_var": 1.3514412491525998,
+      "between_axon_pct": 50.06891795408844,
+      "between_neuron_pct": 24.15880993100323
+    },
+    "n": 4468,
+    "n_axons": 573,
+    "n_neurons": 411
+  },
+  "same_axon_consistency_BC": {
+    "n_common_axons": 502,
+    "spearman_rho": -0.005619407585310951,
+    "spearman_p": 0.9000549322597202,
+    "concordance_pct": 49.40239043824701,
+    "expands_pct": 78.68525896414343,
+    "median_r2_minus_r0": 0.6549000753262089,
+    "wilcoxon_p": 2.0087934801993803e-43,
+    "interpretation": "Case_B_contextual: axons adapt placement to regime",
+    "2x2": {
+      "tt": 124,
+      "tb": 127,
+      "bt": 127,
+      "bb": 124
+    }
+  },
+  "same_axon_consistency_MC": {
+    "n_common_axons": 122,
+    "spearman_rho": 0.18026838851236363,
+    "spearman_p": 0.04692895059628113,
+    "concordance_pct": 55.73770491803279,
+    "expands_pct": 88.52459016393442,
+    "median_r2_minus_r0": 1.186703469411849,
+    "wilcoxon_p": 1.119979445889972e-19,
+    "interpretation": "Case_B_contextual: axons adapt placement to regime",
+    "2x2": {
+      "tt": 34,
+      "tb": 27,
+      "bt": 27,
+      "bb": 34
+    }
+  },
+  "arrival_placement_corr_BC": {
+    "n_axons": 604,
+    "spearman_rho": -0.26668973013917213,
+    "spearman_p": 2.7063662188775927e-11,
+    "compact_Q4_median": 7.892508214066315,
+    "distal_Q1_median": 8.228093858624765,
+    "mannwhitney_p": 3.927714677260473e-10,
+    "interpretation": "Axons preferring compact branches use tight placement (rho=-0.267, aligned with arrival)"
+  },
+  "arrival_placement_corr_MC": {
+    "n_axons": 294,
+    "spearman_rho": -0.09843445223215766,
+    "spearman_p": 0.09204591755433612,
+    "compact_Q4_median": 8.318978512675676,
+    "distal_Q1_median": 8.537843014662867,
+    "mannwhitney_p": 0.019630160637097733,
+    "interpretation": "Axons preferring compact branches use tight placement (rho=-0.098, aligned with arrival)"
+  }
+}

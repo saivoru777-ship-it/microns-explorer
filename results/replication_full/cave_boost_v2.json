@@ -1,0 +1,50 @@
+{
+  "n_unique_presynaptic_partners": 3536708,
+  "coverage_before": {
+    "typed_pct": 6.94,
+    "subtyped_pct": 0.94,
+    "inh_subtyped_pct": 0.14
+  },
+  "coverage_after": {
+    "typed_pct": 6.94,
+    "subtyped_pct": 0.95,
+    "inh_subtyped_pct": 0.14
+  },
+  "new_assignments": {
+    "from_mtypes_PTC_DTC": 87,
+    "from_synapse_target_structure": 0,
+    "total": 87
+  },
+  "tables_used": [
+    "aibs_metamodel_mtypes_v661_v2 (PTC\u2192BC, DTC\u2192MC, STC\u2192BPC)",
+    "synapse_target_structure (Celii et al.) \u2014 soma-targeting proxy for BC"
+  ],
+  "mtype_mapping": {
+    "PTC": "BC",
+    "DTC": "MC",
+    "STC": "BPC",
+    "ITC": null,
+    "L2a": "excitatory",
+    "L2b": "excitatory",
+    "L2c": "excitatory",
+    "L3a": "excitatory",
+    "L3b": "excitatory",
+    "L4a": "excitatory",
+    "L4b": "excitatory",
+    "L4c": "excitatory",
+    "L5ET": "5PET",
+    "L5NP": "5PNP",
+    "L5a": "5PIT",
+    "L5b": "5PIT",
+    "L6short-a": "6PCT",
+    "L6short-b": "6PCT",
+    "L6tall-a": "6PIT",
+    "L6tall-b": "6PIT",
+    "L6tall-c": "6PIT"
+  },
+  "notes": [
+    "PTC/DTC/STC are morphological EM proxy categories, not molecular identity.",
+    "Synapse target structure classification uses >40% soma target \u2192 BC-proximal.",
+    "These are L2 (boosted) labels, distinct from L1 (direct CAVE annotation)."
+  ]
+}
