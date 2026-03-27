@@ -1,0 +1,250 @@
+{
+  "analysis1_geometry_lambda": {
+    "geometry_r2": 0.9999999902980046,
+    "geometry_coefs": [
+      -1.1587187824843695e-05,
+      -2.1106763616191015e-06,
+      -0.5004875490152039,
+      1.0000345426957908
+    ],
+    "interpretation_note": "R\u00b2=1.000 confirms L/\u03bb is fully determined by branch length and diameter (cable formula). The incremental LME tests whether the biophysically specific L/sqrt(d) combination predicts spacing beyond L and d as independent covariates. Significant LRT = the ratio matters, not just each dimension alone.",
+    "spacing_incremental": {
+      "inhibitory": {
+        "interval_cv_z": {
+          "residualized_elec": {
+            "n": 20494,
+            "elec_coef": 1370.5616950260667,
+            "elec_p": 2.7285559111398948e-15,
+            "lrt_chi2": 62.33918738202192,
+            "lrt_p": 2.891144547122393e-15,
+            "geom_llf": -50660.57257080151,
+            "full_llf": -50629.4029771105
+          },
+          "raw_elec": {
+            "n": 20494,
+            "elec_coef": 1370.559698469268,
+            "elec_p": 2.728609855933731e-15,
+            "lrt_chi2": 62.33918738225475,
+            "lrt_p": 2.891144546780585e-15,
+            "geom_llf": -50660.57257080151,
+            "full_llf": -50629.40297711038
+          }
+        },
+        "clark_evans_z": {
+          "residualized_elec": {
+            "n": 20138,
+            "elec_coef": -890.318874066732,
+            "elec_p": 3.4278345808591125e-31,
+            "lrt_chi2": 134.46381996272248,
+            "lrt_p": 4.32531716694954e-31,
+            "geom_llf": -32033.05519169831,
+            "full_llf": -31965.82328171695
+          },
+          "raw_elec": {
+            "n": 20138,
+            "elec_coef": -890.320505574754,
+            "elec_p": 3.426994366021354e-31,
+            "lrt_chi2": 134.46381817304064,
+            "lrt_p": 4.325321065793591e-31,
+            "geom_llf": -32033.05519169831,
+            "full_llf": -31965.82328261179
+          }
+        },
+        "pairwise_compactness_z": {
+          "residualized_elec": {
+            "n": 20495,
+            "elec_coef": -1307.2876304419574,
+            "elec_p": 2.2144859144968342e-46,
+            "lrt_chi2": 203.4646927456197,
+            "lrt_p": 3.662604199527553e-46,
+            "geom_llf": -37616.715042977594,
+            "full_llf": -37514.982696604784
+          },
+          "raw_elec": {
+            "n": 20495,
+            "elec_coef": -1307.2883277689455,
+            "elec_p": 2.214149641988649e-46,
+            "lrt_chi2": 203.4646927373833,
+            "lrt_p": 3.662604214684245e-46,
+            "geom_llf": -37616.715042977594,
+            "full_llf": -37514.9826966089
+          }
+        }
+      },
+      "excitatory": {
+        "interval_cv_z": {
+          "residualized_elec": {
+            "n": 102397,
+            "elec_coef": 1465.2658216945395,
+            "elec_p": 2.375280000554418e-281,
+            "lrt_chi2": 1276.3870430772658,
+            "lrt_p": 1.529975542027047e-279,
+            "geom_llf": -175884.94620725838,
+            "full_llf": -175246.75268571975
+          },
+          "raw_elec": {
+            "n": 102397,
+            "elec_coef": 1465.2684362566392,
+            "elec_p": 2.369154244628918e-281,
+            "lrt_chi2": 1276.387040786678,
+            "lrt_p": 1.5299772956705752e-279,
+            "geom_llf": -175884.94620725838,
+            "full_llf": -175246.75268686505
+          }
+        },
+        "clark_evans_z": {
+          "residualized_elec": {
+            "n": 97000,
+            "elec_coef": -807.7677445017664,
+            "elec_p": 7.826530264540054e-92,
+            "lrt_chi2": 412.13274430599995,
+            "lrt_p": 1.2585941616283282e-91,
+            "geom_llf": -144575.45962574682,
+            "full_llf": -144369.39325359382
+          },
+          "raw_elec": {
+            "n": 97000,
+            "elec_coef": -807.7540813233306,
+            "elec_p": 7.85588945447479e-92,
+            "lrt_chi2": 412.1327501209453,
+            "lrt_p": 1.25859049346912e-91,
+            "geom_llf": -144575.45962574682,
+            "full_llf": -144369.39325068635
+          }
+        },
+        "pairwise_compactness_z": {
+          "residualized_elec": {
+            "n": 102404,
+            "elec_coef": -1277.3282878952677,
+            "elec_p": 1.0159235219065762e-285,
+            "lrt_chi2": 1296.2693650734145,
+            "lrt_p": 7.310412554517828e-284,
+            "geom_llf": -160350.37169851712,
+            "full_llf": -159702.2370159804
+          },
+          "raw_elec": {
+            "n": 102404,
+            "elec_coef": -1277.3340159821023,
+            "elec_p": 1.0143052780843535e-285,
+            "lrt_chi2": 1296.2693742807023,
+            "lrt_p": 7.310378874136584e-284,
+            "geom_llf": -160350.37169851712,
+            "full_llf": -159702.23701137677
+          }
+        }
+      }
+    },
+    "bc_fraction_incremental": {
+      "frac_BC_afferent": {
+        "residualized_elec": {
+          "n": 18561,
+          "elec_coef": 26.750433494189455,
+          "elec_p": 0.08097780699937758,
+          "lrt_chi2": 3.044507400278235,
+          "lrt_p": 0.08101068945756808,
+          "geom_llf": 1739.8050479976664,
+          "full_llf": 1741.3273016978055
+        },
+        "raw_elec": {
+          "n": 18561,
+          "elec_coef": 26.750594806200763,
+          "elec_p": 0.08097577125572436,
+          "lrt_chi2": 3.0445054035517387,
+          "lrt_p": 0.08101078908158191,
+          "geom_llf": 1739.8050479976664,
+          "full_llf": 1741.3273006994423
+        }
+      },
+      "frac_inh_afferent": {
+        "residualized_elec": {
+          "n": 18851,
+          "elec_coef": 89.82745889189334,
+          "elec_p": 1.0446030101905533e-07,
+          "lrt_chi2": 28.266027799923904,
+          "lrt_p": 1.0573547819930208e-07,
+          "geom_llf": -681.9373656243988,
+          "full_llf": -667.8043517244369
+        },
+        "raw_elec": {
+          "n": 18851,
+          "elec_coef": 89.82739473503682,
+          "elec_p": 1.0446174291669002e-07,
+          "lrt_chi2": 28.26602781168185,
+          "lrt_p": 1.0573547755702987e-07,
+          "geom_llf": -681.9373656243988,
+          "full_llf": -667.8043517185579
+        }
+      },
+      "frac_exc_afferent": {
+        "residualized_elec": {
+          "n": 18851,
+          "elec_coef": -89.82745949672027,
+          "elec_p": 1.0446027654368536e-07,
+          "lrt_chi2": 28.266027782054152,
+          "lrt_p": 1.0573547917542896e-07,
+          "geom_llf": -681.9373656166572,
+          "full_llf": -667.8043517256301
+        },
+        "raw_elec": {
+          "n": 18851,
+          "elec_coef": -89.82756990994605,
+          "elec_p": 1.0445845404512661e-07,
+          "lrt_chi2": 28.26602779631503,
+          "lrt_p": 1.0573547839643526e-07,
+          "geom_llf": -681.9373656166572,
+          "full_llf": -667.8043517184997
+        }
+      }
+    }
+  },
+  "analysis2_b1_b2": {
+    "neurons_processed": 327,
+    "branches_used": 13568,
+    "same_axon_nn": {
+      "n": 34164,
+      "median_um": 2.3369375449481087,
+      "mean_um": 7.3300000112822605,
+      "p5_um": 0.24512510419056524,
+      "p25_um": 1.0498774092857461
+    },
+    "cross_axon_nn": {
+      "n": 199689,
+      "median_um": 0.41796484598377354,
+      "mean_um": 2.7779369456096368,
+      "p5_um": 0.016495255612026086,
+      "p25_um": 0.13785826379558422
+    },
+    "shuffle_null_median_um": 1.651393288674528,
+    "cross_vs_same_mw_p": 1.0,
+    "hard_core_frac_1um": {
+      "same_axon": 0.23530617023767708,
+      "cross_axon": 0.6723154505255673
+    },
+    "cross_same_ratio": 0.17885152595854006,
+    "verdict": "B2",
+    "verdict_detail": "Same-axon NN (median=2.34\u00b5m) >> cross-axon NN (median=0.42\u00b5m), ratio=0.18. Spacing regularity is within-axon only; different axons pack closely (cross NN 0.25\u00d7 shuffle null) \u2192 consistent with presynaptic axon tiling (B2).",
+    "by_regime": {
+      "regime0": {
+        "same_median_um": 1.0179056454433462,
+        "cross_median_um": 0.2945783458799251,
+        "ratio": 0.2893965144987699,
+        "n_same": 6854,
+        "n_cross": 23811
+      },
+      "regime1": {
+        "same_median_um": 2.3050726542196447,
+        "cross_median_um": 0.3954276463422102,
+        "ratio": 0.1715467170279184,
+        "n_same": 8662,
+        "n_cross": 55164
+      },
+      "regime2": {
+        "same_median_um": 3.172512489854562,
+        "cross_median_um": 0.4612990315841434,
+        "ratio": 0.14540495366348924,
+        "n_same": 18648,
+        "n_cross": 120714
+      }
+    }
+  }
+}
