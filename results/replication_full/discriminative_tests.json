@@ -1,0 +1,113 @@
+{
+  "test_a_density_regularity": {
+    "inhibitory": {
+      "interval_cv_z": {
+        "n": 25292,
+        "density_coef": -0.8155768235992773,
+        "density_p": 2.34768528507249e-190,
+        "direction": "more regular at higher density",
+        "repulsion_consistent": true
+      },
+      "clark_evans_z": {
+        "n": 24826,
+        "density_coef": 0.32327233297554897,
+        "density_p": 5.547238602269783e-125,
+        "direction": "more regular at higher density",
+        "repulsion_consistent": true
+      }
+    },
+    "excitatory": {
+      "interval_cv_z": {
+        "n": 102397,
+        "density_coef": -0.9530777333492305,
+        "density_p": 0.0,
+        "direction": "more regular at higher density",
+        "repulsion_consistent": true
+      },
+      "clark_evans_z": {
+        "n": 96996,
+        "density_coef": 0.3977562436411101,
+        "density_p": 0.0,
+        "direction": "more regular at higher density",
+        "repulsion_consistent": true
+      }
+    },
+    "inhibitory_density_quintiles": [
+      {
+        "quintile": 1,
+        "density_median_per_um": 0.7629656411482442,
+        "icv_z_median": -0.6623838583146245,
+        "icv_z_mean": -0.03672491319055616,
+        "n": 5059
+      },
+      {
+        "quintile": 2,
+        "density_median_per_um": 1.2099465130671891,
+        "icv_z_median": -1.0821514775228578,
+        "icv_z_mean": -0.8981046036144985,
+        "n": 5058
+      },
+      {
+        "quintile": 3,
+        "density_median_per_um": 1.6359869654834815,
+        "icv_z_median": -1.1920494884682125,
+        "icv_z_mean": -1.0640832910709208,
+        "n": 5058
+      },
+      {
+        "quintile": 4,
+        "density_median_per_um": 2.1584251323455534,
+        "icv_z_median": -1.2020639564792832,
+        "icv_z_mean": -0.9853768563515622,
+        "n": 5058
+      },
+      {
+        "quintile": 5,
+        "density_median_per_um": 3.2398651955100495,
+        "icv_z_median": -0.7922626404136046,
+        "icv_z_mean": -0.38761958474049646,
+        "n": 5059
+      }
+    ]
+  },
+  "test_b_noise_floor": {
+    "inhibitory": {
+      "total_var": 8.004364350260062,
+      "between_neuron_var": 0.4553061527256254,
+      "within_neuron_var": 7.549058197534436,
+      "post_regime_residual_var": 6.8605756911825875,
+      "estimated_noise_var": 0.01986913227495285,
+      "noise_fraction_of_residual": 0.002896131923810598,
+      "icc_neuron": 0.056882237339787325,
+      "verdict": "NOISE-CLEAN"
+    },
+    "excitatory": {
+      "total_var": 2.2528897047939367,
+      "between_neuron_var": 0.10128316839267641,
+      "within_neuron_var": 2.1516065364012604,
+      "post_regime_residual_var": 1.564886455541836,
+      "estimated_noise_var": 0.033962011641287204,
+      "noise_fraction_of_residual": 0.021702540475710096,
+      "icc_neuron": 0.04495700263406388,
+      "verdict": "NOISE-CLEAN"
+    },
+    "inhibitory_snr": 345.288138215833,
+    "summary": "Inhibitory post-regime residual variance is 345.3\u00d7 the estimated synapse-sampling noise floor, confirming the residual reflects real biological variation rather than measurement artifact."
+  },
+  "test_c_icv_slope_figure": {
+    "excitatory": {
+      "n": 1702,
+      "median": -2.2302198465005643,
+      "mean": -1.9511061716485583,
+      "std": 2.3728190705197734
+    },
+    "inhibitory": {
+      "n": 436,
+      "median": -0.06840143321038561,
+      "mean": 1.6498102262010579,
+      "std": 8.337870091304932
+    },
+    "mann_whitney_p": 1.1246192939023516e-24,
+    "cohens_d": -0.5874386786586259
+  }
+}
