@@ -1,0 +1,97 @@
+[
+  {
+    "label": "full_dataset",
+    "n_branches": 121826,
+    "n_neurons": 2138,
+    "coef_regime2": 0.7932127221391189,
+    "p_regime2": 0.0
+  },
+  {
+    "label": "drop_23P",
+    "n_branches": 79100,
+    "n_neurons": 1620,
+    "coef_regime2": 0.9320602340869847,
+    "p_regime2": 0.0,
+    "pct_change": 17.504448437668128
+  },
+  {
+    "label": "drop_4P",
+    "n_branches": 100546,
+    "n_neurons": 1630,
+    "coef_regime2": 0.860589342459832,
+    "p_regime2": 0.0,
+    "pct_change": 8.49414267323062
+  },
+  {
+    "label": "drop_5PET",
+    "n_branches": 113683,
+    "n_neurons": 2068,
+    "coef_regime2": 0.7584904627114608,
+    "p_regime2": 0.0,
+    "pct_change": -4.37742089335378
+  },
+  {
+    "label": "drop_5PIT",
+    "n_branches": 111939,
+    "n_neurons": 1943,
+    "coef_regime2": 0.7785670127419625,
+    "p_regime2": 0.0,
+    "pct_change": -1.8463785297921267
+  },
+  {
+    "label": "drop_5PNP",
+    "n_branches": 121514,
+    "n_neurons": 2125,
+    "coef_regime2": 0.7930107163211957,
+    "p_regime2": 0.0,
+    "pct_change": -0.02546678996504416
+  },
+  {
+    "label": "drop_6PCT",
+    "n_branches": 115427,
+    "n_neurons": 1974,
+    "coef_regime2": 0.7691572199871067,
+    "p_regime2": 0.0,
+    "pct_change": -3.032667212792525
+  },
+  {
+    "label": "drop_6PIT",
+    "n_branches": 113573,
+    "n_neurons": 1904,
+    "coef_regime2": 0.7867231740825984,
+    "p_regime2": 0.0,
+    "pct_change": -0.8181346409850304
+  },
+  {
+    "label": "drop_BC",
+    "n_branches": 108735,
+    "n_neurons": 1925,
+    "coef_regime2": 0.7778941036403201,
+    "p_regime2": 0.0,
+    "pct_change": -1.9312119020844583
+  },
+  {
+    "label": "drop_BPC",
+    "n_branches": 118607,
+    "n_neurons": 2053,
+    "coef_regime2": 0.7882475051498687,
+    "p_regime2": 0.0,
+    "pct_change": -0.6259628534272662
+  },
+  {
+    "label": "drop_MC",
+    "n_branches": 114779,
+    "n_neurons": 2024,
+    "coef_regime2": 0.7778096231577887,
+    "p_regime2": 0.0,
+    "pct_change": -1.9418623215965882
+  },
+  {
+    "label": "drop_NGC",
+    "n_branches": 120357,
+    "n_neurons": 2114,
+    "coef_regime2": 0.7929558705418945,
+    "p_regime2": 0.0,
+    "pct_change": -0.03238117469064996
+  }
+]

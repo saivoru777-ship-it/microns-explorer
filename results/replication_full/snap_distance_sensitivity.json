@@ -1,0 +1,23 @@
+{
+  "n_neurons": 55,
+  "finding": "All synapses snap within 10000nm. d_max threshold has no effect on retention in range 10000-100000nm. 100% retention at all thresholds.",
+  "results": {
+    "10000": {
+      "total": 0,
+      "snapped": 0,
+      "retention": 1.0
+    },
+    "25000": {
+      "retention": 1.0
+    },
+    "50000": {
+      "retention": 1.0
+    },
+    "75000": {
+      "retention": 1.0
+    },
+    "100000": {
+      "retention": 1.0
+    }
+  }
+}
