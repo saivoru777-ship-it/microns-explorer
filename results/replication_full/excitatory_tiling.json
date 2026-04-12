@@ -1,0 +1,317 @@
+{
+  "excitatory_all_synapses": {
+    "population": "Excitatory (all synapses)",
+    "syn_type_filter": null,
+    "neurons_processed": 1702,
+    "branches_used": 105085,
+    "same_axon_nn": {
+      "n": 636202,
+      "median_um": 2.084039419754685,
+      "mean_um": 5.019079664401663,
+      "p25_um": 0.9314398055657802,
+      "p75_um": 4.723260006167482
+    },
+    "cross_axon_nn": {
+      "n": 5658432,
+      "median_um": 0.3697020917255186,
+      "mean_um": 0.6143016421643963,
+      "p25_um": 0.14566536336241914,
+      "p75_um": 0.7651151420742099
+    },
+    "ratio_cross_same": 0.1773968804145925,
+    "mann_whitney_p": 0.0,
+    "verdict": "B2 (presynaptic tiling)",
+    "by_regime": {
+      "regime0": {
+        "same_median_um": 1.0699490228429844,
+        "cross_median_um": 0.32988655372304676,
+        "ratio": 0.3083198794335997,
+        "n_same": 89901,
+        "n_cross": 359944
+      },
+      "regime1": {
+        "same_median_um": 2.0374061278019324,
+        "cross_median_um": 0.3478915878544758,
+        "ratio": 0.1707522045345965,
+        "n_same": 151937,
+        "n_cross": 1566984
+      },
+      "regime2": {
+        "same_median_um": 2.4685209523846368,
+        "cross_median_um": 0.3829774679883849,
+        "ratio": 0.15514450773384023,
+        "n_same": 394364,
+        "n_cross": 3731504
+      }
+    },
+    "lattice_constant": {
+      "regime0": {
+        "median_um": 1.2265179417007919,
+        "mean_um": 1.8268087890210667,
+        "n": 38506
+      },
+      "regime1": {
+        "median_um": 2.1964112853990447,
+        "mean_um": 4.133956275205062,
+        "n": 70229
+      },
+      "regime2": {
+        "median_um": 2.66862430877141,
+        "mean_um": 6.428281846774577,
+        "n": 183082
+      }
+    }
+  },
+  "excitatory_exc_presynaptic": {
+    "population": "Excitatory (exc presynaptic only)",
+    "syn_type_filter": "excitatory",
+    "neurons_processed": 1702,
+    "branches_used": 43779,
+    "same_axon_nn": {
+      "n": 22204,
+      "median_um": 2.6377502997891025,
+      "mean_um": 6.9996466573107385,
+      "p25_um": 1.200091768593433,
+      "p75_um": 6.4696993107002925
+    },
+    "cross_axon_nn": {
+      "n": 277405,
+      "median_um": 3.5953727857419073,
+      "mean_um": 8.317819154297485,
+      "p25_um": 1.0040743177309923,
+      "p75_um": 9.834519215188497
+    },
+    "ratio_cross_same": 1.3630451623981885,
+    "mann_whitney_p": 1.0,
+    "verdict": "B1 (postsynaptic scaffold)",
+    "by_regime": {
+      "regime0": {
+        "same_median_um": 1.2563036994391092,
+        "cross_median_um": 1.3353408699956943,
+        "ratio": 1.0629124713967428,
+        "n_same": 600,
+        "n_cross": 6501
+      },
+      "regime1": {
+        "same_median_um": 2.3058238845790147,
+        "cross_median_um": 2.97535953464836,
+        "ratio": 1.290367210846888,
+        "n_same": 4598,
+        "n_cross": 65131
+      },
+      "regime2": {
+        "same_median_um": 2.842446255554547,
+        "cross_median_um": 3.9207378476741725,
+        "ratio": 1.3793533791580015,
+        "n_same": 17006,
+        "n_cross": 205773
+      }
+    },
+    "lattice_constant": {
+      "regime0": {
+        "median_um": 1.4734383458664078,
+        "mean_um": 1.9400360609458676,
+        "n": 270
+      },
+      "regime1": {
+        "median_um": 2.4103582474249485,
+        "mean_um": 4.876132498230889,
+        "n": 2154
+      },
+      "regime2": {
+        "median_um": 3.0521750107048975,
+        "mean_um": 8.091600547424436,
+        "n": 7912
+      }
+    }
+  },
+  "excitatory_inh_presynaptic": {
+    "population": "Excitatory (inh presynaptic only)",
+    "syn_type_filter": "inhibitory",
+    "neurons_processed": 1699,
+    "branches_used": 65915,
+    "same_axon_nn": {
+      "n": 113879,
+      "median_um": 2.022232917684772,
+      "mean_um": 7.04746104726867,
+      "p25_um": 0.8679447612654103,
+      "p75_um": 5.506423378427227
+    },
+    "cross_axon_nn": {
+      "n": 550700,
+      "median_um": 1.777467176190708,
+      "mean_um": 5.152341524684358,
+      "p25_um": 0.5001733261328863,
+      "p75_um": 5.395077545379522
+    },
+    "ratio_cross_same": 0.8789626361268547,
+    "mann_whitney_p": 0.0,
+    "verdict": "B1 (postsynaptic scaffold)",
+    "by_regime": {
+      "regime0": {
+        "same_median_um": 1.0844002104981791,
+        "cross_median_um": 0.786293905043678,
+        "ratio": 0.725095677252267,
+        "n_same": 29164,
+        "n_cross": 75665
+      },
+      "regime1": {
+        "same_median_um": 2.074010509731066,
+        "cross_median_um": 1.67591374414617,
+        "ratio": 0.8080546054530279,
+        "n_same": 25441,
+        "n_cross": 143972
+      },
+      "regime2": {
+        "same_median_um": 2.8884438263908487,
+        "cross_median_um": 2.252727559568237,
+        "ratio": 0.7799104621615757,
+        "n_same": 59274,
+        "n_cross": 331063
+      }
+    },
+    "lattice_constant": {
+      "regime0": {
+        "median_um": 1.2775233846789371,
+        "mean_um": 1.9832897220694008,
+        "n": 12138
+      },
+      "regime1": {
+        "median_um": 2.428667639611398,
+        "mean_um": 5.46195379238724,
+        "n": 11121
+      },
+      "regime2": {
+        "median_um": 3.6489237151824345,
+        "mean_um": 11.404815508700613,
+        "n": 26073
+      }
+    }
+  },
+  "inhibitory_all_synapses": {
+    "population": "Inhibitory (all synapses)",
+    "syn_type_filter": null,
+    "neurons_processed": 327,
+    "branches_used": 20724,
+    "same_axon_nn": {
+      "n": 327783,
+      "median_um": 2.300894892571076,
+      "mean_um": 5.138728986165751,
+      "p25_um": 1.1610556064472348,
+      "p75_um": 4.731234766894724
+    },
+    "cross_axon_nn": {
+      "n": 2243201,
+      "median_um": 0.18048203159074183,
+      "mean_um": 0.30946599575009326,
+      "p25_um": 0.06942332038549011,
+      "p75_um": 0.38365904501100884
+    },
+    "ratio_cross_same": 0.07843992881789867,
+    "mann_whitney_p": 0.0,
+    "verdict": "B2 (presynaptic tiling)",
+    "by_regime": {
+      "regime0": {
+        "same_median_um": 1.1891603407427678,
+        "cross_median_um": 0.10569188914242295,
+        "ratio": 0.08887942653419317,
+        "n_same": 33346,
+        "n_cross": 178969
+      },
+      "regime1": {
+        "same_median_um": 2.215114882759546,
+        "cross_median_um": 0.1717460637198028,
+        "ratio": 0.0775337049362627,
+        "n_same": 82003,
+        "n_cross": 591313
+      },
+      "regime2": {
+        "same_median_um": 2.5658152710591313,
+        "cross_median_um": 0.195366128534748,
+        "ratio": 0.07614193069094319,
+        "n_same": 212434,
+        "n_cross": 1472919
+      }
+    },
+    "lattice_constant": {
+      "regime0": {
+        "median_um": 1.3452643502943382,
+        "mean_um": 1.9758100941940138,
+        "n": 14392
+      },
+      "regime1": {
+        "median_um": 2.401179677295417,
+        "mean_um": 4.130122936124194,
+        "n": 36748
+      },
+      "regime2": {
+        "median_um": 2.808498191984351,
+        "mean_um": 6.5027817232009415,
+        "n": 95169
+      }
+    }
+  },
+  "inhibitory_inh_presynaptic": {
+    "population": "Inhibitory (inh presynaptic only)",
+    "syn_type_filter": "inhibitory",
+    "neurons_processed": 327,
+    "branches_used": 13568,
+    "same_axon_nn": {
+      "n": 34164,
+      "median_um": 2.3369375449481087,
+      "mean_um": 7.3300000112822605,
+      "p25_um": 1.0498774092857461,
+      "p75_um": 5.867693492051846
+    },
+    "cross_axon_nn": {
+      "n": 199689,
+      "median_um": 0.41796484598377354,
+      "mean_um": 2.7779369456096368,
+      "p25_um": 0.13785826379558422,
+      "p75_um": 1.892098610356392
+    },
+    "ratio_cross_same": 0.17885152595854006,
+    "mann_whitney_p": 0.0,
+    "verdict": "B2 (presynaptic tiling)",
+    "by_regime": {
+      "regime0": {
+        "same_median_um": 1.0179056454433462,
+        "cross_median_um": 0.2945783458799251,
+        "ratio": 0.2893965144987699,
+        "n_same": 6854,
+        "n_cross": 23811
+      },
+      "regime1": {
+        "same_median_um": 2.3050726542196447,
+        "cross_median_um": 0.3954276463422102,
+        "ratio": 0.1715467170279184,
+        "n_same": 8662,
+        "n_cross": 55164
+      },
+      "regime2": {
+        "same_median_um": 3.172512489854562,
+        "cross_median_um": 0.4612990315841434,
+        "ratio": 0.14540495366348924,
+        "n_same": 18648,
+        "n_cross": 120714
+      }
+    },
+    "lattice_constant": {
+      "regime0": {
+        "median_um": 1.2469870971552897,
+        "mean_um": 1.949143469632878,
+        "n": 2814
+      },
+      "regime1": {
+        "median_um": 2.6392295167860684,
+        "mean_um": 5.387785525263152,
+        "n": 3687
+      },
+      "regime2": {
+        "median_um": 4.055219903868087,
+        "mean_um": 11.888133507107842,
+        "n": 7788
+      }
+    }
+  }
+}

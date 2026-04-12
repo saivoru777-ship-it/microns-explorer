@@ -1,0 +1,106 @@
+{
+  "excitatory": {
+    "population": "excitatory",
+    "neurons_processed": 1702,
+    "observed_ratio": 0.1773968804145925,
+    "same_nn_median": 2.084039419754685,
+    "cross_nn_median": 0.3697020917255186,
+    "n_same_nn": 636202,
+    "n_cross_nn": 5658432,
+    "control1_k_shuffle": {
+      "observed_same_nn_median": 2.084039419754685,
+      "shuffle_same_nn_median": 12.700852002283456,
+      "ratio_observed_over_shuffle": 0.1640865840638093,
+      "p_value": 0.8874626865671642
+    },
+    "control2_interval_cv": {
+      "median_cv": 0.4893018163837113,
+      "mean_cv": 0.5060201957498238,
+      "frac_regular": 0.5124987400463663,
+      "frac_random": 0.03714343312166112,
+      "n_pairs": 39684
+    },
+    "control3_random_partner": {
+      "observed_ratio": 0.1773968804145925,
+      "null_median_ratio": 0.025584986649580747,
+      "p_below_5th": 0.0
+    },
+    "control4_normalization": {
+      "regime0": {
+        "raw_median_um": 1.2265179417007919,
+        "normalized_median": 0.07959450376686134,
+        "n": 38506
+      },
+      "regime1": {
+        "raw_median_um": 2.1964112853990447,
+        "normalized_median": 0.044545383971149134,
+        "n": 70229
+      },
+      "regime2": {
+        "raw_median_um": 2.66862430877141,
+        "normalized_median": 0.02238936932563823,
+        "n": 183082
+      }
+    },
+    "control5_data_fraction": {
+      "total_branches": 105180,
+      "branches_with_multi_k2": 75035,
+      "frac_branches": 0.7133960829054954,
+      "total_synapses": 5658632,
+      "synapses_in_multi": 636402,
+      "frac_synapses": 0.11246569842322314
+    }
+  },
+  "inhibitory": {
+    "population": "inhibitory",
+    "neurons_processed": 327,
+    "observed_ratio": 0.07843992881789867,
+    "same_nn_median": 2.300894892571076,
+    "cross_nn_median": 0.18048203159074183,
+    "n_same_nn": 327783,
+    "n_cross_nn": 2243201,
+    "control1_k_shuffle": {
+      "observed_same_nn_median": 2.300894892571076,
+      "shuffle_same_nn_median": 15.116721730841123,
+      "ratio_observed_over_shuffle": 0.15220858950368799,
+      "p_value": 0.8810972568578553
+    },
+    "control2_interval_cv": {
+      "median_cv": 0.4611687165155791,
+      "mean_cv": 0.4858738188546246,
+      "frac_regular": 0.5474446263897268,
+      "frac_random": 0.03973110402482117,
+      "n_pairs": 23206
+    },
+    "control3_random_partner": {
+      "observed_ratio": 0.07843992881789867,
+      "null_median_ratio": NaN,
+      "p_below_5th": 0.0
+    },
+    "control4_normalization": {
+      "regime0": {
+        "raw_median_um": 1.3452643502943382,
+        "normalized_median": 0.09210388020465665,
+        "n": 14392
+      },
+      "regime1": {
+        "raw_median_um": 2.401179677295417,
+        "normalized_median": 0.05195897536587929,
+        "n": 36748
+      },
+      "regime2": {
+        "raw_median_um": 2.808498191984351,
+        "normalized_median": 0.020948076718377416,
+        "n": 95169
+      }
+    },
+    "control5_data_fraction": {
+      "total_branches": 20733,
+      "branches_with_multi_k2": 17070,
+      "frac_branches": 0.8233251338445956,
+      "total_synapses": 2243220,
+      "synapses_in_multi": 327802,
+      "frac_synapses": 0.14613011652891825
+    }
+  }
+}
